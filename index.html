@@ -1,0 +1,1097 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>منظومة المعلم العالمية | ULTIMATE</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800;900&display=swap');
+:root{--nav:#0c2a49;--nav2:#163e65;--gold:#caa052;--bg:#f4f7fb;--card:#fff;--ink:#172234;--muted:#718096;--line:#e4e9f0;--blue:#24659b;--green:#16845d;--red:#bd2d24;--amber:#a76f15;--purple:#6a45c3;--shadow:0 10px 35px rgba(15,39,66,.07);--shadow2:0 24px 70px rgba(15,39,66,.14);--r:18px}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Tajawal,Arial,sans-serif}.app{display:flex;min-height:100vh}.side{position:fixed;right:0;top:0;bottom:0;width:278px;background:linear-gradient(180deg,var(--nav),#09213a);color:#fff;z-index:40;overflow:auto}.brand{height:80px;display:flex;align-items:center;gap:12px;padding:14px 19px;border-bottom:1px solid #ffffff16}.mark{width:47px;height:47px;border-radius:15px;background:linear-gradient(145deg,#e5c477,#9b7027);display:grid;place-items:center;font-weight:900;font-size:23px}.brand b{display:block}.brand small{color:#a9bdcf;font-size:10px}.nav{padding:10px}.navtitle{font-size:9px;color:#7891a8;padding:14px 10px 5px}.nav button{width:100%;border:0;background:transparent;color:#cbd8e4;border-radius:12px;padding:9px 11px;display:flex;align-items:center;gap:10px;text-align:right;margin:2px 0;transition:.18s}.nav button:hover{background:#ffffff0d;color:#fff;transform:translateX(-2px)}.nav button.active{background:linear-gradient(90deg,#ffffff13,#caa05222);box-shadow:inset -3px 0 var(--gold);color:#fff}.ni{width:27px;height:27px;border-radius:8px;background:#ffffff0a;display:grid;place-items:center;font-size:15px}.main{margin-right:278px;width:calc(100% - 278px);min-width:0}.top{height:76px;background:#ffffffed;backdrop-filter:blur(15px);position:sticky;top:0;z-index:30;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 25px}.profile{display:flex;align-items:center;gap:9px}.av{width:43px;height:43px;border-radius:13px;background:linear-gradient(145deg,#eef4fa,#dbe6f0);display:grid;place-items:center;font-weight:900;color:var(--nav)}.topright,.topleft{display:flex;gap:9px;align-items:center}.search{width:min(390px,35vw);border:1px solid var(--line);background:#f8fafc;border-radius:11px;padding:10px 12px;outline:0}.page{max-width:1500px;margin:auto;padding:27px 29px 60px}.head{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:19px}.head h1{font-size:27px;margin:0 0 4px}.crumb{font-size:10px;color:var(--muted);margin-bottom:5px}.actions{display:flex;gap:8px;flex-wrap:wrap}.btn{border:1px solid var(--line);background:#fff;border-radius:11px;padding:10px 14px;display:inline-flex;align-items:center;gap:7px;color:var(--ink);transition:.17s}.btn:hover{transform:translateY(-1px);box-shadow:0 6px 17px #0c2a4910}.primary{background:var(--nav);color:#fff;border-color:var(--nav)}.gold{background:linear-gradient(135deg,var(--gold),#a77a2e);color:#fff;border:0}.ok{background:var(--green);color:#fff;border-color:var(--green)}.danger{background:var(--red);color:#fff;border-color:var(--red)}.soft{background:#edf4fa;color:var(--blue);border-color:#dce8f2}.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}.pad{padding:19px}.grid{display:grid;gap:14px}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g4{grid-template-columns:repeat(4,minmax(0,1fr))}.hero{border-radius:24px;background:linear-gradient(135deg,#0c2a49,#2d6d9e);color:#fff;padding:28px;position:relative;overflow:hidden;box-shadow:var(--shadow2)}.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;background:#ffffff0a}.hero:before{width:400px;height:400px;left:-170px;top:-240px}.hero:after{width:300px;height:300px;right:-150px;bottom:-190px}.hero>*{position:relative}.hero h2{font-size:28px;margin:0 0 6px}.hero p{color:#d6e6f2;margin:0}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}.kpi{background:#ffffff0e;border:1px solid #ffffff14;border-radius:14px;padding:13px}.kpi b{font-size:23px;display:block}.kpi span{font-size:10px;color:#c9d9e6}.stat{padding:16px;display:flex;justify-content:space-between;align-items:center}.statnum{font-size:26px;font-weight:900}.statlabel{font-size:11px;color:var(--muted)}.ico{width:44px;height:44px;border-radius:13px;background:#edf4fa;display:grid;place-items:center;color:var(--blue);font-size:20px}.sect{margin-top:17px}.sectitle{font-weight:900;font-size:14px;margin-bottom:11px}.tablewrap{overflow:auto}.table{width:100%;border-collapse:collapse;min-width:780px}.table th,.table td{padding:12px 10px;border-bottom:1px solid var(--line);font-size:11px;text-align:right}.table th{background:#f8fafc;color:var(--muted)}.tag{display:inline-flex;padding:5px 9px;border-radius:999px;font-size:9px;font-weight:800;white-space:nowrap}.tag.ok{background:#e7f7ef;color:var(--green);border:0}.tag.warn{background:#fff4df;color:var(--amber);border:0}.tag.bad{background:#fdecea;color:var(--red);border:0}.tag.info{background:#eaf2fb;color:var(--blue);border:0}.tag.purple{background:#f0ebff;color:var(--purple);border:0}.field{margin-bottom:12px}.field label{display:block;font-size:10px;color:var(--muted);margin-bottom:5px}.field input,.field select,.field textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;outline:0;background:#fff}.field input:focus,.field select:focus,.field textarea:focus{border-color:#91b0ca;box-shadow:0 0 0 3px #edf4fa}.notice{padding:12px 14px;border-radius:12px;border:1px solid #dce8f2;background:#f2f7fb;font-size:11px;line-height:1.8}.notice.okn{background:#edf9f3;border-color:#cbe8d9}.notice.warnn{background:#fff9ec;border-color:#efdfba}.notice.redn{background:#fff2f0;border-color:#f0c9c3}.timeline{display:grid;gap:9px}.event{display:flex;gap:10px;padding:11px;border:1px solid var(--line);border-radius:12px}.dot{width:8px;height:8px;background:var(--gold);border-radius:50%;margin-top:5px;flex:none}.progress{height:8px;background:#edf0f4;border-radius:99px;overflow:hidden}.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--gold));border-radius:99px}.switch{width:43px;height:24px;border-radius:99px;background:#d6dce4;padding:3px}.switch i{width:18px;height:18px;border-radius:50%;display:block;background:#fff;transition:.2s}.switch.on{background:var(--green)}.switch.on i{transform:translateX(-19px)}.checkrow{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid var(--line);font-size:11px}.empty{text-align:center;padding:44px;color:var(--muted)}.empty .big{font-size:38px;margin-bottom:7px}.stepper{display:flex;align-items:center;margin-bottom:16px;overflow:auto}.step{display:flex;align-items:center;gap:7px;font-size:10px;color:var(--muted);white-space:nowrap}.step i{width:30px;height:30px;border-radius:50%;background:#e8edf2;display:grid;place-items:center;font-style:normal;font-weight:900}.step.on{color:var(--nav)}.step.on i{background:var(--nav);color:#fff}.line{width:35px;height:1px;background:var(--line);margin:0 7px}.examq{border:1px solid var(--line);border-radius:15px;padding:14px;margin-top:10px}.examqhead{display:flex;justify-content:space-between;align-items:center}.choice{padding:6px 0;font-size:11px;display:flex;gap:6px}.choice input{width:auto}.scanbox{height:300px;border:2px dashed #a9bacb;border-radius:18px;background:linear-gradient(145deg,#eef4f8,#fafcff);display:grid;place-items:center;position:relative;overflow:hidden}.scanframe{width:73%;height:72%;border:2px solid var(--blue);border-radius:5px;position:relative}.scanframe:before,.scanframe:after{content:"";position:absolute;left:10px;right:10px;height:2px;background:var(--gold);animation:scan 2s infinite}.scanframe:before{top:15%}.scanframe:after{top:60%;animation-delay:1s}@keyframes scan{0%,100%{opacity:.25;transform:translateY(0)}50%{opacity:1;transform:translateY(35px)}}.review{display:grid;grid-template-columns:1.2fr .8fr;gap:14px}.paper{min-height:380px;border:1px solid var(--line);border-radius:14px;background:#fff;padding:20px;box-shadow:0 8px 25px #0c2a4910}.bubble{width:18px;height:18px;border:2px solid #718096;border-radius:50%;display:inline-block;margin:3px}.bubble.fill{background:#172234}.score{font-size:31px;font-weight:900;color:var(--nav)}.rolebox{border:1px solid var(--line);border-radius:13px;padding:12px}.rolebox h4{margin:0 0 8px}.perm{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:10px}.modalbg{display:none;position:fixed;inset:0;background:#071522a6;z-index:100;padding:15px;align-items:center;justify-content:center}.modal{width:min(880px,100%);max-height:94vh;overflow:auto;background:#fff;border-radius:21px;box-shadow:0 40px 100px #0005}.mhead{padding:16px 19px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}.mbody{padding:19px}.mfoot{padding:13px 19px;border-top:1px solid var(--line);display:flex;gap:8px}.close{border:0;background:none;font-size:22px}.toast{display:none;position:fixed;bottom:23px;right:23px;background:#172234;color:#fff;border-radius:12px;padding:12px 16px;z-index:200;box-shadow:var(--shadow2);font-size:11px}.mobile{display:none}.fade{animation:fade .22s ease}@keyframes fade{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+@media(max-width:1050px){.side{width:230px}.main{margin-right:230px;width:calc(100% - 230px)}.g4{grid-template-columns:repeat(2,1fr)}.review{grid-template-columns:1fr}}
+@media(max-width:720px){.side{display:none}.main{margin:0;width:100%}.top{height:67px;padding:0 13px}.search{display:none}.page{padding:17px 13px 84px}.head{display:block}.actions{margin-top:11px}.g2,.g3,.g4{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}.hero{padding:22px}.hero h2{font-size:23px}.mobile{position:fixed;display:flex;right:0;left:0;bottom:0;height:67px;background:#fff;border-top:1px solid var(--line);z-index:50;justify-content:space-around}.mobile button{border:0;background:none;font-size:8px;color:var(--muted)}.mobile b{font-size:17px;display:block}}
+</style>
+</head>
+<body>
+<div class="app"><aside class="side"><div class="brand"><div class="mark">م</div><div><b>منظومة المعلم العالمية</b><small>GLOBAL EDUCATION OS</small></div></div><nav class="nav" id="nav"></nav></aside>
+<main class="main"><header class="top"><div class="topright"><div class="profile"><div class="av">س</div><div><b>سعود القرشي</b><div style="font-size:9px;color:var(--muted)" id="role"></div></div></div></div><div class="topleft"><input class="search" id="search" placeholder="ابحث في النظام…"><button class="btn" onclick="toast('لا توجد إشعارات جديدة')">🔔</button><button class="btn soft" onclick="roleModal()">تجربة الدور ▾</button></div></header><section class="page fade" id="view"></section></main></div>
+<div class="mobile" id="mobile"></div><div class="modalbg" id="modal"><div class="modal"><div class="mhead"><b id="mt"></b><button class="close" onclick="closeM()">×</button></div><div class="mbody" id="mb"></div><div class="mfoot" id="mf"></div></div></div><div class="toast" id="toast"></div>
+<script>
+const S='global_edu_v3';let route=localStorage.getItem('g_route')||'home',role=localStorage.getItem('g_role')||'teacher';
+const D=JSON.parse(localStorage.getItem(S)||'null')||{
+ school:'مدارس التميز العالمية',
+ students:[['إبراهيم بن عامر أحمد آل رزيع','1157425495','الأول المتوسط / أ'],['عبدالله محمد العتيبي','1157425496','الأول المتوسط / أ'],['سلمان أحمد القحطاني','1157425497','الثاني المتوسط / ب']],
+ teachers:['خالد عبدالله','محمد علي','عبدالله أحمد'],
+ subjects:['الرياضيات','العلوم','العربية','القرآن الكريم','التفسير'],
+ classes:['الأول المتوسط / أ','الثاني المتوسط / ب','الثالث المتوسط / أ'],
+ audit:[['22:41','سعود القرشي','اعتماد الجدول','نجاح'],['21:18','خالد عبدالله','حفظ تحضير الحصة','نجاح']],
+ exams:[['EX-001','اختبار الرياضيات','16','20','مفتاح الإجابة معتمد']],
+ tickets:[['SUP-1042','مشكلة تقنية','مشكلة في الطباعة','قيد المعالجة']],
+ schedule:[
+  {id:'SL-1',day:'الأحد',period:'1',time:'07:00',teacher:'خالد عبدالله',nationalId:'1022222222',className:'الأول المتوسط / أ',subject:'الرياضيات',status:'اعتمد',approvedAt:'2026-09-07 06:50'},
+  {id:'SL-2',day:'الأحد',period:'2',time:'07:45',teacher:'محمد علي',nationalId:'1033333333',className:'الثاني المتوسط / ب',subject:'العلوم',status:'اعتمد',approvedAt:'2026-09-07 06:55'},
+  {id:'SL-3',day:'الأحد',period:'3',time:'08:30',teacher:'خالد عبدالله',nationalId:'1022222222',className:'الثالث المتوسط / أ',subject:'العربية',status:'بانتظار',approvedAt:''}
+]};
+const menus={
+ system:[['الرئيسية','home','⌂'],['إدارة المدارس','schools','🏫'],['المستخدمون والأدوار','roles','♙'],['التقويم الدراسي','calendar','□'],['الاشتراكات','subscriptions','◇'],['مركز الميزات','features','🧩'],['الثيمات','themes','🎨'],['الدعم الفني','support','?'],['سجل التدقيق','audit','▤'],['النسخ الاحتياطي','backups','☁️'],['الإعدادات','settings','⚙']],
+ school:[['الرئيسية','home','⌂'],['الجدول العام','schedule','▦'],['المعلمون','teachers','♟'],['الطلاب','students','♙'],['الحضور والغياب','attendance','✓'],['المشاركة والسلوك','participation','◎'],['الواجبات','homework','▤'],['الدرجات','grades','▥'],['الإحالات','referrals','↗'],['متابعة ولي الأمر','parent','⌁'],['المساءلات','accountability','!'],['الاجتماعات','meetings','◉'],['التعاميم','circulars','▧'],['التقارير','reports','▤'],['المستخدمون والصلاحيات','roles','♙'],['التقويم','calendar','□'],['المدرسة','school','⌂'],['الاشتراكات','subscriptions','◇'],['الدعم الفني','support','?'],['الإعدادات','settings','⚙']],
+ teacher:[['الرئيسية','home','⌂'],['المساءلات','accountability','⚖'],['الجدول','schedule','▦'],['الطلاب','students','♙'],['سجل الحصص','lesson','▤'],['الحضور','attendance','✓'],['المشاركة والسلوك','participation','◎'],['الواجبات','homework','▤'],['الدرجات','grades','▥'],['الإحالات','referrals','↗'],['متابعة ولي الأمر','parent','⌁'],['التصحيح الإلكتروني','correction','🖨️'],['التقارير','reports','▤'],['الإعدادات','settings','⚙']],
+ counselor:[['الرئيسية','home','⌂'],['الطلاب','students','♙'],['الحضور','attendance','✓'],['المشاركة والسلوك','participation','◎'],['الإحالات','referrals','↗'],['التقارير','reports','▤'],['الإعدادات','settings','⚙']]
+};
+function save(){localStorage.setItem(S,JSON.stringify(D));localStorage.setItem('g_route',route);localStorage.setItem('g_role',role)}
+function esc(x){return String(x??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function toast(x){let e=document.getElementById('toast');e.textContent=x;e.style.display='block';clearTimeout(window.tt);window.tt=setTimeout(()=>e.style.display='none',2200)}
+function go(x){
+ const allowed=(menus[role]||[]).map(function(v){return v[1]});
+ if(allowed.indexOf(x)<0){toast('هذه الوظيفة غير متاحة لهذا الدور');return;}
+ route=x; localStorage.setItem('g_route',route); buildNav(); render();
+}
+function openM(t,b,f=''){document.getElementById('mt').textContent=t;document.getElementById('mb').innerHTML=b;document.getElementById('mf').innerHTML=f;document.getElementById('modal').style.display='flex'}
+function closeM(){document.getElementById('modal').style.display='none'}
+function roleName(r){return {system:'مدير النظام',school:'مدير المدرسة',teacher:'المعلم',counselor:'المرشد الطلابي'}[r]}
+
+function roleModal(){
+ openM('اختيار الحساب والدور',
+ `<div class="notice okn">اختر الحساب التجريبي المطلوب. بعد الاختيار يعاد بناء القائمة والصفحة فورًا.</div>
+ <div class="grid g2">
+  <button class="card pad" onclick="setDemoRole('system')" style="cursor:pointer;text-align:right"><div class="sectitle">مدير المنظومة</div><div class="tiny muted">إدارة المنصة والمدارس والاشتراكات</div></button>
+  <button class="card pad" onclick="setDemoRole('school')" style="cursor:pointer;text-align:right"><div class="sectitle">مدير المدرسة</div><div class="tiny muted">إدارة المدرسة والجدول والمعلمين</div></button>
+  <button class="card pad" onclick="setDemoRole('teacher')" style="cursor:pointer;text-align:right"><div class="sectitle">المعلم</div><div class="tiny muted">منظومة المعلم المعتمدة</div></button>
+  <button class="card pad" onclick="setDemoRole('counselor')" style="cursor:pointer;text-align:right"><div class="sectitle">المرشد الطلابي</div><div class="tiny muted">متابعة الطلاب والإحالات</div></button>
+ </div>`,
+ `<button class="btn" onclick="closeM()">إلغاء</button>`);
+}
+function setDemoRole(r){
+ if(!menus[r]){toast('الدور غير موجود في النظام');return;}
+ role=r;route='home';save();
+ closeM();
+ bindSafeClicks();
+ buildNav();
+ render();
+ toast('تم الدخول إلى حساب '+roleName(r));
+};
+/* V20 interaction safety layer: delegated clicks for local-file/WebView environments */
+function bindSafeClicks(){
+ if(window.__safeClicksBound)return;
+ window.__safeClicksBound=true;
+ document.addEventListener('click',function(ev){
+  var el=ev.target.closest ? ev.target.closest('[data-role-action],[data-nav-action],[data-role-modal]') : null;
+  if(!el)return;
+  ev.preventDefault();ev.stopPropagation();
+  if(el.hasAttribute('data-role-modal')){roleModal();return;}
+  if(el.hasAttribute('data-role-action')){setDemoRole(el.getAttribute('data-role-action'));return;}
+  if(el.hasAttribute('data-nav-action')){go(el.getAttribute('data-nav-action'));return;}
+ });
+}
+function buildNav(){let a=menus[role]||[];document.getElementById('role').textContent=roleName(role)||role;document.getElementById('nav').innerHTML=a.map(x=>`<button class="${route===x[1]?'active':''}" onclick="go('${x[1]}')"><span class="ni">${x[2]}</span>${x[0]}</button>`).join('');document.getElementById('mobile').innerHTML=a.slice(0,5).map(x=>`<button onclick="go('${x[1]}')"><b>${x[2]}</b>${x[0]}</button>`).join('')}
+function H(t,s,a=''){return `<div class="head"><div><div class="crumb">الرئيسية ‹ ${t}</div><h1>${t}</h1><div style="color:var(--muted);font-size:11px">${s||''}</div></div><div class="actions">${a}</div></div>`}
+function stat(n,l,i){return `<div class="card stat"><div><div class="statnum">${n}</div><div class="statlabel">${l}</div></div><div class="ico">${i}</div></div>`}
+function feature(i,t,d,r){return `<div class="card pad" onclick="go('${r}')" style="cursor:pointer;display:flex;gap:12px;transition:.18s" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'"><div class="ico">${i}</div><div><b>${t}</b><div style="font-size:10px;color:var(--muted);line-height:1.7;margin-top:4px">${d}</div></div></div>`}
+/* ===== إصلاح V28: تعريف الصفحات المفقودة التي كان استدعاؤها في render() يكسر التطبيق بالكامل ===== */
+function _today(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+function classList(){return D.classes||[];}
+function studentsOf(cls){D.students=D.students||[];return D.students.filter(function(s){return !cls||s[2]===cls;});}
+
+/* ---------- الطلاب ---------- */
+function pStudents(){
+ D.students=D.students||[];
+ var rows=D.students.length?D.students.map(function(s,i){return '<tr><td><b>'+esc(s[0])+'</b></td><td class="tiny muted">'+esc(s[1])+'</td><td>'+esc(s[2])+'</td><td><button class="btn" onclick="studentForm('+i+')">تعديل</button> <button class="btn danger" onclick="studentDel('+i+')">حذف</button></td></tr>';}).join(''):'<tr><td colspan="4"><div class="empty">لا يوجد طلاب مسجلون.</div></td></tr>';
+ document.getElementById('view').innerHTML=H('الطلاب','بطاقة الطالب: البيانات الأساسية والفصل الدراسي','<button class="btn gold" onclick="studentForm()">＋ طالب</button>')+
+  '<div class="grid g4">'+stat(D.students.length,'إجمالي الطلاب','🎓')+stat(classList().length,'الفصول','▦')+stat((D.teachers||[]).length,'المعلمون','👥')+stat((D.subjects||[]).length,'المواد','▤')+'</div>'+
+  '<div class="card pad sect"><div class="sectitle">سجل الطلاب</div><div class="tablewrap"><table class="table"><tr><th>الاسم الرباعي</th><th>رقم الهوية</th><th>الفصل</th><th></th></tr>'+rows+'</table></div></div>';
+}
+function studentForm(i){
+ D.students=D.students||[];var s=(i!=null&&i>-1)?D.students[i]:null;var cs=classList();
+ openM(s?'تعديل طالب':'إضافة طالب',
+  '<div class="grid g2 sect"><div class="field"><label>الاسم الرباعي *</label><input id="st-name" value="'+(s?esc(s[0]):'')+'"></div>'+
+  '<div class="field"><label>رقم الهوية *</label><input id="st-id" value="'+(s?esc(s[1]):'')+'"></div>'+
+  '<div class="field"><label>الفصل *</label><select id="st-class">'+cs.map(function(c){return '<option '+(s&&s[2]===c?'selected':'')+'>'+esc(c)+'</option>';}).join('')+'</select></div></div>',
+  '<button class="btn" onclick="closeM()">إلغاء</button><button class="btn primary" onclick="studentSave('+(s?i:-1)+')">حفظ</button>');
+}
+function studentSave(i){
+ var n=document.getElementById('st-name').value.trim(),id=document.getElementById('st-id').value.trim(),c=document.getElementById('st-class').value;
+ if(!n||!id){toast('أكمل الاسم ورقم الهوية');return;}
+ if(i>-1&&D.students[i])D.students[i]=[n,id,c];else D.students.push([n,id,c]);
+ save();closeM();pStudents();toast('تم حفظ بيانات الطالب');
+}
+function studentDel(i){D.students.splice(i,1);save();pStudents();toast('تم حذف الطالب');}
+
+/* ---------- الحضور والغياب ---------- */
+var ATT_ST=[['present','حاضر','ok'],['absent','غائب','bad'],['late','متأخر','warn'],['excused','مستأذن','info']];
+function pAttendance(){
+ D.att=D.att||{};var cs=classList();
+ window.attClass=window.attClass||(cs[0]||'');window.attDate=window.attDate||_today();
+ document.getElementById('view').innerHTML=H('الحضور والغياب','رصد الحضور لكل فصل وتاريخ مع ملخص فوري','')+
+  '<div class="card pad"><div class="grid g2"><div class="field"><label>الفصل</label><select onchange="window.attClass=this.value;attRender()">'+cs.map(function(c){return '<option '+(window.attClass===c?'selected':'')+'>'+esc(c)+'</option>';}).join('')+'</select></div>'+
+  '<div class="field"><label>التاريخ</label><input type="date" value="'+window.attDate+'" onchange="window.attDate=this.value;attRender()"></div></div></div>'+
+  '<div id="att-sum" class="grid g4 sect"></div><div class="card pad sect"><div class="sectitle">كشف الحضور</div><div id="att-list"></div></div>';
+ attRender();
+}
+function attRender(){
+ D.att=D.att||{};var day=D.att[window.attDate]=D.att[window.attDate]||{};
+ var studs=studentsOf(window.attClass);
+ var list=document.getElementById('att-list');if(!list)return;
+ if(!studs.length){list.innerHTML='<div class="empty">لا يوجد طلاب في هذا الفصل.</div>';document.getElementById('att-sum').innerHTML='';return;}
+ list.innerHTML=studs.map(function(s){var cur=day[s[1]]||'present';return '<div class="checkrow"><span><b>'+esc(s[0])+'</b> <span class="tiny muted">'+esc(s[1])+'</span></span><span>'+
+  ATT_ST.map(function(o){return '<button class="btn '+(cur===o[0]?(o[2]==='bad'?'danger':o[2]==='ok'?'ok':'primary'):'')+'" style="padding:5px 10px;margin-inline-start:5px" onclick="attSet(\''+esc(s[1])+'\',\''+o[0]+'\')">'+o[1]+'</button>';}).join('')+'</span></div>';}).join('');
+ var c={present:0,absent:0,late:0,excused:0};studs.forEach(function(s){c[day[s[1]]||'present']++;});
+ document.getElementById('att-sum').innerHTML=stat(c.present,'حاضر','✓')+stat(c.absent,'غائب','✕')+stat(c.late,'متأخر','⏱')+stat(c.excused,'مستأذن','◔');
+}
+function attSet(nid,st){D.att=D.att||{};D.att[window.attDate]=D.att[window.attDate]||{};D.att[window.attDate][nid]=st;save();attRender();}
+
+/* ---------- المشاركة والسلوك ---------- */
+function pParticipation(){
+ D.participation=D.participation||[];
+ var rows=D.participation.length?D.participation.slice().reverse().map(function(r){return '<tr><td><b>'+esc(r.student)+'</b></td><td>'+esc(r.type)+'</td><td>'+esc(r.note)+'</td><td>'+esc(r.date)+'</td><td><span class="tag '+(r.value==='إيجابي'?'ok':'warn')+'">'+esc(r.value)+'</span></td><td><button class="btn danger" onclick="partDel(\''+r.id+'\')">حذف</button></td></tr>';}).join(''):'<tr><td colspan="6"><div class="empty">لا توجد سجلات.</div></td></tr>';
+ document.getElementById('view').innerHTML=H('المشاركة والسلوك','رصد المشاركات الصفية والملاحظات السلوكية','<button class="btn gold" onclick="partNew()">＋ رصد</button>')+
+  '<div class="card pad"><div class="tablewrap"><table class="table"><tr><th>الطالب</th><th>النوع</th><th>الملاحظة</th><th>التاريخ</th><th>التقدير</th><th></th></tr>'+rows+'</table></div></div>';
+}
+function partNew(){
+ var studs=studentsOf('');
+ openM('رصد مشاركة/سلوك',
+  '<div class="grid g2 sect"><div class="field"><label>الطالب *</label><select id="pp-stu">'+studs.map(function(s){return '<option>'+esc(s[0])+'</option>';}).join('')+'</select></div>'+
+  '<div class="field"><label>النوع</label><select id="pp-type"><option>مشاركة</option><option>سلوك</option></select></div>'+
+  '<div class="field"><label>التقدير</label><select id="pp-val"><option>إيجابي</option><option>يحتاج متابعة</option></select></div>'+
+  '<div class="field" style="grid-column:1/-1"><label>الملاحظة</label><input id="pp-note" placeholder="وصف مختصر"></div></div>',
+  '<button class="btn" onclick="closeM()">إلغاء</button><button class="btn primary" onclick="partSave()">حفظ</button>');
+}
+function partSave(){
+ var s=document.getElementById('pp-stu').value;if(!s){toast('اختر الطالب');return;}
+ D.participation=D.participation||[];D.participation.push({id:'PP-'+Date.now(),student:s,type:document.getElementById('pp-type').value,value:document.getElementById('pp-val').value,note:document.getElementById('pp-note').value.trim(),date:_today()});
+ save();closeM();pParticipation();toast('تم الرصد');
+}
+function partDel(id){D.participation=(D.participation||[]).filter(function(r){return r.id!==id;});save();pParticipation();toast('تم الحذف');}
+
+/* ---------- الواجبات ---------- */
+function pHomework(){
+ D.homework=D.homework||[];
+ var rows=D.homework.length?D.homework.slice().reverse().map(function(r){return '<tr><td><b>'+esc(r.title)+'</b></td><td>'+esc(r.className)+'</td><td>'+esc(r.due)+'</td><td><span class="tag '+(r.status==='منجز'?'ok':r.status==='غير منجز'?'bad':'info')+'">'+esc(r.status)+'</span></td><td><button class="btn" onclick="hwToggle(\''+r.id+'\')">تبديل الحالة</button> <button class="btn danger" onclick="hwDel(\''+r.id+'\')">حذف</button></td></tr>';}).join(''):'<tr><td colspan="5"><div class="empty">لا توجد واجبات.</div></td></tr>';
+ document.getElementById('view').innerHTML=H('الواجبات','إسناد الواجبات ومتابعة حالتها','<button class="btn gold" onclick="hwNew()">＋ واجب</button>')+
+  '<div class="card pad"><div class="tablewrap"><table class="table"><tr><th>الواجب</th><th>الفصل</th><th>الاستحقاق</th><th>الحالة</th><th></th></tr>'+rows+'</table></div></div>';
+}
+function hwNew(){
+ var cs=classList();
+ openM('إضافة واجب',
+  '<div class="grid g2 sect"><div class="field" style="grid-column:1/-1"><label>عنوان الواجب *</label><input id="hw-title" placeholder="مثال: تمارين الوحدة الثالثة"></div>'+
+  '<div class="field"><label>الفصل</label><select id="hw-class">'+cs.map(function(c){return '<option>'+esc(c)+'</option>';}).join('')+'</select></div>'+
+  '<div class="field"><label>تاريخ الاستحقاق</label><input type="date" id="hw-due" value="'+_today()+'"></div></div>',
+  '<button class="btn" onclick="closeM()">إلغاء</button><button class="btn primary" onclick="hwSave()">حفظ</button>');
+}
+function hwSave(){
+ var t=document.getElementById('hw-title').value.trim();if(!t){toast('أدخل عنوان الواجب');return;}
+ D.homework=D.homework||[];D.homework.push({id:'HW-'+Date.now(),title:t,className:document.getElementById('hw-class').value,due:document.getElementById('hw-due').value,status:'مُسند'});
+ save();closeM();pHomework();toast('تم إسناد الواجب');
+}
+function hwToggle(id){var order=['مُسند','منجز','غير منجز'];D.homework=(D.homework||[]).map(function(r){if(r.id===id){r.status=order[(order.indexOf(r.status)+1)%order.length];}return r;});save();pHomework();}
+function hwDel(id){D.homework=(D.homework||[]).filter(function(r){return r.id!==id;});save();pHomework();toast('تم الحذف');}
+
+/* ---------- الدرجات ---------- */
+function pGrades(){
+ D.grades=D.grades||{};var cs=classList();
+ window.grClass=window.grClass||(cs[0]||'');
+ document.getElementById('view').innerHTML=H('الدرجات','رصد درجات الفصل مع المتوسط ونسبة النجاح واعتماد الكشف','<button class="btn primary" onclick="gradeSave()">✓ حفظ الكشف</button>')+
+  '<div class="card pad"><div class="grid g2"><div class="field"><label>الفصل</label><select onchange="window.grClass=this.value;gradeRender()">'+cs.map(function(c){return '<option '+(window.grClass===c?'selected':'')+'>'+esc(c)+'</option>';}).join('')+'</select></div><div class="field"><label>الدرجة العظمى</label><input id="gr-max" type="number" min="1" value="'+((D.grades[window.grClass]&&D.grades[window.grClass].max)||20)+'" onchange="gradeRender()"></div></div></div>'+
+  '<div id="gr-sum" class="grid g4 sect"></div><div class="card pad sect"><div class="sectitle">كشف الدرجات — '+esc(window.grClass)+'</div><div id="gr-list"></div></div>';
+ gradeRender();
+}
+function gradeRender(){
+ D.grades=D.grades||{};var studs=studentsOf(window.grClass);var saved=D.grades[window.grClass]||{marks:{}};
+ var max=parseFloat((document.getElementById('gr-max')||{}).value)||20;
+ var list=document.getElementById('gr-list');if(!list)return;
+ if(!studs.length){list.innerHTML='<div class="empty">لا يوجد طلاب في هذا الفصل.</div>';document.getElementById('gr-sum').innerHTML='';return;}
+ list.innerHTML=studs.map(function(s){var m=(saved.marks&&saved.marks[s[1]]!=null)?saved.marks[s[1]]:'';return '<div class="checkrow"><span><b>'+esc(s[0])+'</b> <span class="tiny muted">'+esc(s[1])+'</span></span><input class="gr-inp" data-nid="'+esc(s[1])+'" type="number" min="0" max="'+max+'" value="'+m+'" style="width:110px;text-align:center" oninput="gradeStats()"></span></div>';}).join('');
+ gradeStats();
+}
+function gradeStats(){
+ var max=parseFloat((document.getElementById('gr-max')||{}).value)||20;
+ var vals=[].slice.call(document.querySelectorAll('.gr-inp')).map(function(i){return i.value===''?null:parseFloat(i.value);}).filter(function(v){return v!=null&&!isNaN(v);});
+ var avg=vals.length?(vals.reduce(function(a,b){return a+b;},0)/vals.length).toFixed(1):'—';
+ var pass=vals.filter(function(v){return v>=max*0.5;}).length;
+ var hi=vals.length?Math.max.apply(null,vals):'—';var lo=vals.length?Math.min.apply(null,vals):'—';
+ var el=document.getElementById('gr-sum');if(el)el.innerHTML=stat(avg,'المتوسط','▥')+stat(hi,'الأعلى','▲')+stat(lo,'الأدنى','▼')+stat(pass+'/'+vals.length,'الناجحون','✓');
+}
+function gradeSave(){
+ D.grades=D.grades||{};var max=parseFloat((document.getElementById('gr-max')||{}).value)||20;var marks={};
+ [].slice.call(document.querySelectorAll('.gr-inp')).forEach(function(i){if(i.value!=='')marks[i.dataset.nid]=parseFloat(i.value);});
+ D.grades[window.grClass]={max:max,marks:marks,savedAt:_today()};
+ D.audit&&D.audit.unshift([_today(),'المعلم','حفظ كشف درجات '+window.grClass,'نجاح']);
+ save();toast('تم حفظ واعتماد كشف الدرجات');
+}
+
+/* ---------- الإحالات ---------- */
+function pReferrals(){
+ D.referrals=D.referrals||[];
+ var rows=D.referrals.length?D.referrals.slice().reverse().map(function(r){return '<tr><td><b>'+esc(r.student)+'</b></td><td>'+esc(r.reason)+'</td><td>'+esc(r.to)+'</td><td>'+esc(r.date)+'</td><td><span class="tag '+(r.status==='مغلقة'?'ok':'warn')+'">'+esc(r.status)+'</span></td><td>'+(r.status!=='مغلقة'?'<button class="btn ok" onclick="refClose(\''+r.id+'\')">إغلاق</button> ':'')+'<button class="btn danger" onclick="refDel(\''+r.id+'\')">حذف</button></td></tr>';}).join(''):'<tr><td colspan="6"><div class="empty">لا توجد إحالات.</div></td></tr>';
+ document.getElementById('view').innerHTML=H('الإحالات','إحالة الحالات السلوكية للمرشد الطلابي أو الإدارة','<button class="btn gold" onclick="refNew()">＋ إحالة</button>')+
+  '<div class="card pad"><div class="tablewrap"><table class="table"><tr><th>الطالب</th><th>السبب</th><th>الجهة</th><th>التاريخ</th><th>الحالة</th><th></th></tr>'+rows+'</table></div></div>';
+}
+function refNew(){
+ var studs=studentsOf('');
+ openM('إحالة جديدة',
+  '<div class="grid g2 sect"><div class="field"><label>الطالب *</label><select id="rf-stu">'+studs.map(function(s){return '<option>'+esc(s[0])+'</option>';}).join('')+'</select></div>'+
+  '<div class="field"><label>الجهة</label><select id="rf-to"><option>المرشد الطلابي</option><option>إدارة المدرسة</option></select></div>'+
+  '<div class="field" style="grid-column:1/-1"><label>السبب *</label><input id="rf-reason" placeholder="سبب الإحالة"></div></div>',
+  '<button class="btn" onclick="closeM()">إلغاء</button><button class="btn primary" onclick="refSave()">حفظ</button>');
+}
+function refSave(){
+ var s=document.getElementById('rf-stu').value,r=document.getElementById('rf-reason').value.trim();if(!s||!r){toast('أكمل الطالب والسبب');return;}
+ D.referrals=D.referrals||[];D.referrals.push({id:'RF-'+Date.now(),student:s,reason:r,to:document.getElementById('rf-to').value,date:_today(),status:'مفتوحة'});
+ save();closeM();pReferrals();toast('تم إنشاء الإحالة');
+}
+function refClose(id){D.referrals=(D.referrals||[]).map(function(r){if(r.id===id)r.status='مغلقة';return r;});save();pReferrals();toast('تم إغلاق الإحالة');}
+function refDel(id){D.referrals=(D.referrals||[]).filter(function(r){return r.id!==id;});save();pReferrals();toast('تم الحذف');}
+
+/* ---------- سجل الحصص / التحضير الموحد ---------- */
+function pLesson(){
+ var cs=classList();window.lsClass=window.lsClass||(cs[0]||'');window.lsDate=window.lsDate||_today();
+ D.lessons=D.lessons||{};var key=window.lsClass+'|'+window.lsDate;var rec=D.lessons[key]||{objective:'',notes:''};
+ document.getElementById('view').innerHTML=H('سجل الحصص','كشف موحد للحصة: الحضور والمشاركة والواجب مع هدف الحصة','<button class="btn primary" onclick="lessonSave()">✓ حفظ التحضير</button>')+
+  '<div class="card pad"><div class="grid g2"><div class="field"><label>الفصل</label><select onchange="window.lsClass=this.value;pLesson()">'+cs.map(function(c){return '<option '+(window.lsClass===c?'selected':'')+'>'+esc(c)+'</option>';}).join('')+'</select></div><div class="field"><label>التاريخ</label><input type="date" value="'+window.lsDate+'" onchange="window.lsDate=this.value;pLesson()"></div></div></div>'+
+  '<div class="grid g2 sect"><div class="field"><label>هدف الحصة</label><input id="ls-obj" value="'+esc(rec.objective)+'"></div><div class="field"><label>ملاحظات التحضير</label><input id="ls-notes" value="'+esc(rec.notes)+'"></div></div>'+
+  '<div class="grid g3 sect">'+
+   '<div class="card pad" style="cursor:pointer" onclick="window.attClass=window.lsClass;go(\'attendance\')"><div class="ico">✓</div><b>رصد الحضور</b><div class="tiny muted">فتح كشف الحضور لهذا الفصل</div></div>'+
+   '<div class="card pad" style="cursor:pointer" onclick="go(\'participation\')"><div class="ico">◎</div><b>المشاركة والسلوك</b><div class="tiny muted">رصد مشاركات وسلوك الطلاب</div></div>'+
+   '<div class="card pad" style="cursor:pointer" onclick="go(\'homework\')"><div class="ico">▤</div><b>الواجبات</b><div class="tiny muted">إسناد ومتابعة الواجب</div></div>'+
+  '</div>';
+}
+function lessonSave(){D.lessons=D.lessons||{};var key=window.lsClass+'|'+window.lsDate;D.lessons[key]={objective:document.getElementById('ls-obj').value.trim(),notes:document.getElementById('ls-notes').value.trim()};save();toast('تم حفظ تحضير الحصة');}
+
+/* ---------- المعلمون (لحساب مدير المدرسة) ---------- */
+function pTeachers(){
+ D.teachers=D.teachers||[];
+ var rows=D.teachers.length?D.teachers.map(function(t,i){var load=(D.schedule||[]).filter(function(x){return x.teacher===t;}).length;return '<tr><td><b>'+esc(t)+'</b></td><td><span class="tag '+(load>20?'bad':load>=8?'ok':'info')+'">'+load+' حصة</span></td><td><button class="btn" onclick="teacherSchedule(\''+esc(t)+'\')">جدوله</button> <button class="btn" onclick="teacherForm('+i+')">تعديل</button> <button class="btn danger" onclick="teacherDel('+i+')">حذف</button></td></tr>';}).join(''):'<tr><td colspan="3"><div class="empty">لا يوجد معلمون.</div></td></tr>';
+ document.getElementById('view').innerHTML=H('المعلمون','إدارة المعلمين وأعبائهم الأسبوعية','<button class="btn gold" onclick="teacherForm()">＋ معلم</button>')+
+  '<div class="grid g4">'+stat(D.teachers.length,'المعلمون','👥')+stat((D.schedule||[]).length,'الحصص','🗓️')+stat(classList().length,'الفصول','▦')+stat((D.subjects||[]).length,'المواد','▤')+'</div>'+
+  '<div class="card pad sect"><div class="tablewrap"><table class="table"><tr><th>المعلم</th><th>العبء الأسبوعي</th><th></th></tr>'+rows+'</table></div></div>';
+}
+function teacherForm(i){
+ D.teachers=D.teachers||[];var cur=(i!=null&&i>-1)?D.teachers[i]:'';
+ openM(cur?'تعديل معلم':'إضافة معلم','<div class="field"><label>اسم المعلم *</label><input id="tc-name" value="'+esc(cur)+'"></div>',
+  '<button class="btn" onclick="closeM()">إلغاء</button><button class="btn primary" onclick="teacherSave('+(cur?i:-1)+')">حفظ</button>');
+}
+function teacherSave(i){var n=document.getElementById('tc-name').value.trim();if(!n){toast('أدخل اسم المعلم');return;}if(i>-1)D.teachers[i]=n;else D.teachers.push(n);save();closeM();pTeachers();toast('تم حفظ المعلم');}
+function teacherDel(i){D.teachers.splice(i,1);save();pTeachers();toast('تم حذف المعلم');}
+
+/* ================= نظام توليد الجدول العام الفعلي (School Timetable Generator) ================= */
+var SB_DAYS=['الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس'];
+function q(x){return String(x==null?'':x).replace(/\\/g,'\\\\').replace(/'/g,"\\'");}
+function sbInit(){
+ D.sb=D.sb||{};var sb=D.sb;
+ sb.teachers=sb.teachers||(D.teachers?D.teachers.slice():[]);
+ sb.classes=sb.classes||(D.classes?D.classes.slice():[]);
+ sb.subjects=sb.subjects||[{name:'القرآن الكريم',quota:5},{name:'التوحيد',quota:2},{name:'الفقه',quota:2},{name:'الرياضيات',quota:6},{name:'لغتي',quota:8},{name:'العلوم',quota:3},{name:'الدراسات الاجتماعية',quota:2}];
+ sb.classSubjects=sb.classSubjects||{};
+ sb.classes.forEach(function(c){if(!sb.classSubjects[c])sb.classSubjects[c]=sb.subjects.map(function(s){return s.name;});});
+ sb.assign=sb.assign||{};
+ sb.periodsPerDay=sb.periodsPerDay||7;
+ sb.breakAfter=sb.breakAfter||3;
+ sb.breakMin=sb.breakMin||20;
+ sb.breaksPerWeek=sb.breaksPerWeek||SB_DAYS.length;
+ sb.supervisors=sb.supervisors||[];
+ sb.meta=sb.meta||{};
+ return sb;
+}
+function sbQuota(name){var s=(D.sb.subjects||[]).find(function(x){return x.name===name;});return s?(+s.quota||0):0;}
+function sbAssignSum(c,s){var a=(D.sb.assign[c]||{})[s]||{};return Object.keys(a).reduce(function(t,k){return t+(+a[k]||0);},0);}
+function sbTeacherLoad(name){var sb=D.sb,t=0;sb.classes.forEach(function(c){var cs=sb.classSubjects[c]||[];cs.forEach(function(s){var a=(sb.assign[c]||{})[s]||{};t+=(+a[name]||0);});});return t;}
+function sbClassTarget(c){var sb=D.sb;return (sb.classSubjects[c]||[]).reduce(function(t,s){return t+sbQuota(s);},0);}
+
+/* ---------- handlers ---------- */
+function sbAllTeachers(on){D.sb.teachers=on?D.teachers.slice():[];save();pSchedule();}
+function sbToggleTeacher(ti){var n=D.teachers[ti],a=D.sb.teachers,i=a.indexOf(n);if(i<0)a.push(n);else a.splice(i,1);save();pSchedule();}
+function sbSetMeta(ti,field,v){var n=D.teachers[ti];D.sb.meta[n]=D.sb.meta[n]||{};D.sb.meta[n][field]=v;save();}
+function sbAddClass(){var v=document.getElementById('sb-newclass').value.trim();if(!v)return;if(D.sb.classes.indexOf(v)<0){D.sb.classes.push(v);D.sb.classSubjects[v]=D.sb.subjects.map(function(s){return s.name;});}save();pSchedule();}
+function sbGenClasses(){var g=document.getElementById('sb-grades').value.split(',').map(function(x){return x.trim();}).filter(Boolean);var secN=+document.getElementById('sb-sections').value||0;var secs=['أ','ب','ج','د','هـ','و'];g.forEach(function(gr){for(var i=0;i<secN;i++){var nm=gr+' / '+secs[i];if(D.sb.classes.indexOf(nm)<0){D.sb.classes.push(nm);D.sb.classSubjects[nm]=D.sb.subjects.map(function(s){return s.name;});}}});save();pSchedule();}
+function sbDelClass(ci){var c=D.sb.classes[ci];D.sb.classes.splice(ci,1);delete D.sb.classSubjects[c];delete D.sb.assign[c];save();pSchedule();}
+function sbToggleCS(ci,si){var c=D.sb.classes[ci],s=D.sb.subjects[si].name;var arr=D.sb.classSubjects[c]=D.sb.classSubjects[c]||[];var i=arr.indexOf(s);if(i<0)arr.push(s);else arr.splice(i,1);save();pSchedule();}
+function sbSetQuota(si,v){D.sb.subjects[si].quota=Math.max(0,+v||0);save();pSchedule();}
+function sbAddSubject(){var n=document.getElementById('sb-subjname').value.trim();var qv=+document.getElementById('sb-subjquota').value||1;if(!n)return;if(!D.sb.subjects.some(function(s){return s.name===n;})){D.sb.subjects.push({name:n,quota:qv});}save();pSchedule();}
+function sbDelSubject(si){var nm=D.sb.subjects[si].name;D.sb.subjects.splice(si,1);Object.keys(D.sb.classSubjects).forEach(function(c){D.sb.classSubjects[c]=D.sb.classSubjects[c].filter(function(s){return s!==nm;});});save();pSchedule();}
+function sbSetAssign(ci,si,ti,v){var c=D.sb.classes[ci],s=D.sb.subjects[si].name,t=D.sb.teachers[ti];D.sb.assign[c]=D.sb.assign[c]||{};D.sb.assign[c][s]=D.sb.assign[c][s]||{};var n=Math.max(0,+v||0);if(n===0)delete D.sb.assign[c][s][t];else D.sb.assign[c][s][t]=n;save();pSchedule();}
+function sbSetBreak(){D.sb.breaksPerWeek=+document.getElementById('sb-bpw').value||0;D.sb.breakAfter=+document.getElementById('sb-bafter').value||0;D.sb.breakMin=+document.getElementById('sb-bmin').value||0;D.sb.periodsPerDay=Math.max(1,+document.getElementById('sb-ppd').value||7);save();pSchedule();}
+function sbAllSup(on){D.sb.supervisors=on?D.sb.teachers.slice():[];save();pSchedule();}
+function sbToggleSup(ti){var n=D.sb.teachers[ti],a=D.sb.supervisors,i=a.indexOf(n);if(i<0)a.push(n);else a.splice(i,1);save();pSchedule();}
+
+/* ---------- generator ---------- */
+function countSubjInDay(grid,d,subject){var c=0,ppd=D.sb.periodsPerDay;for(var p=0;p<ppd;p++){if(grid[d][p]&&grid[d][p].subject===subject)c++;}return c;}
+function generateSchedule(){
+ var sb=sbInit(),errors=[],warnings=[];
+ if(!sb.classes.length)errors.push('لا توجد فصول. أضِف الفصول أولًا.');
+ if(!sb.teachers.length)errors.push('لم يتم اختيار أي معلم.');
+ var DAYS=SB_DAYS.length,PPD=sb.periodsPerDay,cap=DAYS*PPD;
+ sb.classes.forEach(function(c){
+  var target=sbClassTarget(c);
+  if(target>cap)errors.push('حصص الفصل «'+c+'» ('+target+') تتجاوز المتاح أسبوعيًا ('+cap+').');
+  (sb.classSubjects[c]||[]).forEach(function(s){
+   var quota=sbQuota(s),sum=sbAssignSum(c,s);
+   if(sum>quota)errors.push('عدد الحصص المسندة لمادة «'+s+'» في «'+c+'» يتجاوز النصاب المحدد ('+sum+'/'+quota+').');
+   else if(sum<quota)warnings.push('لم يكتمل توزيع حصص «'+s+'» للفصل «'+c+'» ('+sum+'/'+quota+').');
+  });
+ });
+ // نصاب المعلم لا يتجاوز الحصص المتاحة أسبوعيًا
+ sb.teachers.forEach(function(t){var L=sbTeacherLoad(t);if(L>cap)errors.push('عبء المعلم «'+t+'» ('+L+' حصة) يتجاوز المتاح أسبوعيًا ('+cap+').');});
+ if(errors.length){D.sbOut={error:true,errors:errors,warnings:warnings};save();pSchedule();toast('تعذّر التوزيع: عالج الأخطاء المعلّمة بالأحمر');return;}
+
+ var grids={},tBusy={},units=[];
+ sb.classes.forEach(function(c){
+  var g=[];for(var d=0;d<DAYS;d++){g.push([]);for(var p=0;p<PPD;p++)g[d].push(null);}
+  grids[c]=g;
+  (sb.classSubjects[c]||[]).forEach(function(s){
+   var a=(sb.assign[c]||{})[s]||{};
+   Object.keys(a).forEach(function(tn){for(var k=0;k<(+a[tn]||0);k++)units.push({cls:c,subject:s,teacher:tn});});
+  });
+ });
+ // ترتيب حسب ندرة المعلم (الأعلى عبئًا أولًا) لتقليل الانسداد
+ var loadOf={};sb.teachers.forEach(function(t){loadOf[t]=sbTeacherLoad(t);});
+ units.sort(function(a,b){return (loadOf[b.teacher]||0)-(loadOf[a.teacher]||0);});
+
+ function free(u,d,p){return !grids[u.cls][d][p] && !(u.teacher&&tBusy[d+'-'+p+'-'+u.teacher]);}
+ function put(u,d,p){grids[u.cls][d][p]={subject:u.subject,teacher:u.teacher};if(u.teacher)tBusy[d+'-'+p+'-'+u.teacher]=true;}
+ function clear(u,d,p){grids[u.cls][d][p]=null;if(u.teacher)delete tBusy[d+'-'+p+'-'+u.teacher];}
+ function sameSubjInDay(c,d,subject){var n=0;for(var p=0;p<PPD;p++){var x=grids[c][d][p];if(x&&x.subject===subject)n++;}return n;}
+
+ var unplaced=[];
+ units.forEach(function(u){
+  var best=null,bestScore=1e9;
+  for(var d=0;d<DAYS;d++)for(var p=0;p<PPD;p++){
+   if(!free(u,d,p))continue;
+   var score=sameSubjInDay(u.cls,d,u.subject)*100+d; // تفادي تكرار المادة في اليوم
+   if(score<bestScore){bestScore=score;best=[d,p];}
+  }
+  if(best)put(u,best[0],best[1]);else unplaced.push(u);
+ });
+
+ // مرحلة الإصلاح: إعادة توطين الحصة المعرقِلة لإفساح مكان للحصص المتبقية
+ var still=[];
+ unplaced.forEach(function(u){
+  var done=false;
+  for(var d=0;d<DAYS&&!done;d++)for(var p=0;p<PPD&&!done;p++){
+   if(grids[u.cls][d][p])continue;              // خانة الفصل مشغولة
+   if(!u.teacher||!tBusy[d+'-'+p+'-'+u.teacher])continue; // المعلم متفرغ أصلًا (كان يجب وضعها)
+   // ابحث عن الفصل الآخر الذي يشغل هذا المعلم في هذا التوقيت وانقله
+   for(var ci=0;ci<sb.classes.length&&!done;ci++){
+    var oc=sb.classes[ci];var cell=grids[oc][d][p];
+    if(!cell||cell.teacher!==u.teacher)continue;
+    var moved={cls:oc,subject:cell.subject,teacher:cell.teacher};
+    clear(moved,d,p);
+    for(var d2=0;d2<DAYS&&!done;d2++)for(var p2=0;p2<PPD&&!done;p2++){
+     if(d2===d&&p2===p)continue; // لا تُعِدها إلى الخانة نفسها
+     if(free(moved,d2,p2)){put(moved,d2,p2);put(u,d,p);done=true;}
+    }
+    if(!done)put(moved,d,p); // تعذّر النقل: أعِدها مكانها
+   }
+  }
+  if(!done)still.push(u);
+ });
+
+ var out={classes:grids,unplaced:still,warnings:warnings,generatedAt:(typeof scheduleNow==='function'?scheduleNow():_today()),conflicts:0};
+ var sup={};if(sb.supervisors.length){SB_DAYS.forEach(function(dn,i){sup[dn]=sb.supervisors[i%sb.supervisors.length];});}
+ out.supervision=sup;
+ var seen={};sb.classes.forEach(function(c){grids[c].forEach(function(row,d){row.forEach(function(cell,p){if(cell&&cell.teacher){var k=d+'-'+p+'-'+cell.teacher;if(seen[k])out.conflicts++;seen[k]=true;}});});});
+ if(still.length)out.warnings=out.warnings.concat(['تعذّر إسناد '+still.length+' حصة ضمن الأيام والحصص المتاحة؛ راجع النصاب أو زد عدد الحصص اليومية.']);
+ D.sbOut=out;D.audit&&D.audit.unshift([out.generatedAt,'مدير المدرسة','توزيع الجدول العام','نجاح']);save();
+ window.sbTab='result';pSchedule();toast('تم توليد الجدول العام'+(out.warnings.length?' مع تنبيهات':''));
+}
+
+/* ================= واجهة إعداد الجدول على مراحل ================= */
+function sbStep(n,t,s){return '<div class="sectitle" style="display:flex;align-items:center;gap:9px"><span style="width:26px;height:26px;border-radius:9px;background:var(--nav);color:#fff;display:inline-grid;place-items:center;font-size:12px">'+n+'</span>'+t+'</div>'+(s?'<div class="tiny muted" style="margin:-4px 0 10px">'+s+'</div>':'');}
+
+/* 1) المعلمون */
+function sbSecTeachers(){
+ var sb=D.sb,all=D.teachers||[];
+ var allOn=all.length&&sb.teachers.length===all.length;
+ var rows=all.map(function(t,i){
+  var on=sb.teachers.indexOf(t)>-1,m=sb.meta[t]||{};
+  return '<tr><td><input type="checkbox" '+(on?'checked':'')+' onclick="sbToggleTeacher('+i+')"></td>'+
+   '<td><b>'+esc(t)+'</b></td>'+
+   '<td><input value="'+esc(m.nid||'')+'" placeholder="رقم الهوية" style="width:130px" onchange="sbSetMeta('+i+',\'nid\',this.value)"></td>'+
+   '<td><input value="'+esc(m.spec||'')+'" placeholder="التخصص" style="width:130px" onchange="sbSetMeta('+i+',\'spec\',this.value)"></td>'+
+   '<td><span class="tag '+(sbTeacherLoad(t)>24?'bad':sbTeacherLoad(t)?'ok':'info')+'">'+sbTeacherLoad(t)+' حصة</span></td></tr>';
+ }).join('')||'<tr><td colspan="5"><div class="empty">لا يوجد معلمون. أضِفهم من صفحة المعلمين.</div></td></tr>';
+ return '<div class="card pad sect">'+sbStep(1,'إعداد المعلمين','اختر المعلمين الداخلين في توزيع الجدول')+
+  '<div class="checkrow"><span><b>اختيار الكل</b></span><span><button class="btn '+(allOn?'ok':'')+'" onclick="sbAllTeachers(true)">☑ اختيار الكل</button> <button class="btn" onclick="sbAllTeachers(false)">إلغاء الكل</button></span></div>'+
+  '<div class="tablewrap" style="margin-top:10px"><table class="table"><tr><th></th><th>المعلم</th><th>رقم الهوية</th><th>التخصص</th><th>الحصص المسندة</th></tr>'+rows+'</table></div></div>';
+}
+
+/* 2) الفصول */
+function sbSecClasses(){
+ var sb=D.sb;
+ var chips=sb.classes.map(function(c,i){return '<div class="checkrow"><span><b>'+esc(c)+'</b> <span class="tiny muted">'+sbClassTarget(c)+' حصة مطلوبة</span></span><button class="btn danger" onclick="sbDelClass('+i+')">حذف</button></div>';}).join('')||'<div class="empty">لا توجد فصول.</div>';
+ return '<div class="card pad sect">'+sbStep(2,'إعداد الفصول','حدّد الصفوف وعدد الشعب فينشئ النظام الفصول تلقائيًا')+
+  '<div class="grid g3"><div class="field"><label>الصفوف (افصل بفاصلة)</label><input id="sb-grades" value="أول,ثاني,ثالث"></div>'+
+  '<div class="field"><label>عدد الشعب لكل صف</label><input id="sb-sections" type="number" min="1" max="6" value="2"></div>'+
+  '<div class="field"><label>&nbsp;</label><button class="btn primary" style="width:100%" onclick="sbGenClasses()">إنشاء الفصول</button></div></div>'+
+  '<div class="grid g2 sect"><div class="field"><label>إضافة فصل يدويًا</label><input id="sb-newclass" placeholder="مثال: رابع / أ"></div><div class="field"><label>&nbsp;</label><button class="btn" style="width:100%" onclick="sbAddClass()">＋ إضافة</button></div></div>'+
+  '<div class="sect">'+chips+'</div></div>';
+}
+
+/* 3+4) المواد والنصاب */
+function sbSecSubjects(){
+ var sb=D.sb;
+ var rows=sb.subjects.map(function(s,i){return '<tr><td><b>'+esc(s.name)+'</b></td><td><input type="number" min="0" max="20" value="'+(+s.quota||0)+'" style="width:90px;text-align:center" onchange="sbSetQuota('+i+',this.value)"></td><td><button class="btn danger" onclick="sbDelSubject('+i+')">حذف</button></td></tr>';}).join('')||'<tr><td colspan="3"><div class="empty">لا توجد مواد.</div></td></tr>';
+ var matrix=sb.classes.length?'<div class="tablewrap" style="margin-top:12px"><table class="table"><tr><th>الفصل</th>'+sb.subjects.map(function(s){return '<th>'+esc(s.name)+'</th>';}).join('')+'<th>المجموع</th></tr>'+
+  sb.classes.map(function(c,ci){return '<tr><td><b>'+esc(c)+'</b></td>'+sb.subjects.map(function(s,si){var on=(sb.classSubjects[c]||[]).indexOf(s.name)>-1;return '<td style="text-align:center"><input type="checkbox" '+(on?'checked':'')+' onclick="sbToggleCS('+ci+','+si+')"></td>';}).join('')+'<td><span class="tag info">'+sbClassTarget(c)+'</span></td></tr>';}).join('')+'</table></div>':'<div class="empty">أنشئ الفصول أولًا.</div>';
+ return '<div class="card pad sect">'+sbStep(3,'مواد كل فصل ونصاب كل مادة','النصاب = عدد حصص المادة أسبوعيًا، وحدّد أي المواد تُدرَّس لكل فصل')+
+  '<div class="grid g2"><div><div class="tablewrap"><table class="table"><tr><th>المادة</th><th>النصاب الأسبوعي</th><th></th></tr>'+rows+'</table></div>'+
+  '<div class="grid g3 sect"><div class="field"><label>مادة جديدة</label><input id="sb-subjname" placeholder="اسم المادة"></div><div class="field"><label>النصاب</label><input id="sb-subjquota" type="number" min="1" value="2"></div><div class="field"><label>&nbsp;</label><button class="btn" style="width:100%" onclick="sbAddSubject()">＋ إضافة</button></div></div></div>'+
+  '<div>'+matrix+'</div></div></div>';
+}
+
+/* 5) توزيع المادة على المعلمين */
+function sbSecAssign(){
+ var sb=D.sb;
+ if(!sb.classes.length||!sb.teachers.length)return '<div class="card pad sect">'+sbStep(4,'توزيع المواد على المعلمين','')+'<div class="empty">اختر المعلمين وأنشئ الفصول أولًا.</div></div>';
+ var body=sb.classes.map(function(c,ci){
+  var subs=(sb.classSubjects[c]||[]);
+  if(!subs.length)return '';
+  return '<div class="card pad" style="margin-bottom:12px"><div class="sectitle">'+esc(c)+'</div><div class="tablewrap"><table class="table"><tr><th>المادة</th><th>النصاب</th>'+sb.teachers.map(function(t){return '<th>'+esc(t)+'</th>';}).join('')+'<th>المسند</th></tr>'+
+   subs.map(function(sn){
+    var si=sb.subjects.findIndex(function(x){return x.name===sn;});if(si<0)return '';
+    var quota=sbQuota(sn),sum=sbAssignSum(c,sn);
+    var tds=sb.teachers.map(function(t,ti){var v=((sb.assign[c]||{})[sn]||{})[t]||'';return '<td style="text-align:center"><input type="number" min="0" max="'+quota+'" value="'+v+'" style="width:64px;text-align:center" onchange="sbSetAssign('+ci+','+si+','+ti+',this.value)"></td>';}).join('');
+    var tag=sum>quota?'bad':(sum===quota?'ok':'warn');
+    return '<tr><td><b>'+esc(sn)+'</b></td><td><span class="tag info">'+quota+'</span></td>'+tds+'<td><span class="tag '+tag+'">'+sum+'/'+quota+'</span></td></tr>';
+   }).join('')+'</table></div></div>';
+ }).join('');
+ return '<div class="card pad sect">'+sbStep(4,'توزيع المادة بين أكثر من معلم','لا يسمح النظام بتجاوز مجموع الإسناد لنصاب المادة')+body+'</div>';
+}
+
+/* 6+7) الفسحة والإشراف */
+function sbSecBreakSup(){
+ var sb=D.sb;
+ var supAll=sb.teachers.length&&sb.supervisors.length===sb.teachers.length;
+ var sups=sb.teachers.map(function(t,i){var on=sb.supervisors.indexOf(t)>-1;var share=0;Object.keys(D.sbOut&&D.sbOut.supervision||{}).forEach(function(d){if((D.sbOut.supervision||{})[d]===t)share++;});
+  return '<div class="checkrow"><span><input type="checkbox" '+(on?'checked':'')+' onclick="sbToggleSup('+i+')"> '+esc(t)+'</span><span class="tag '+(share?'ok':'info')+'">'+share+' يوم إشراف</span></div>';}).join('')||'<div class="empty">اختر المعلمين أولًا.</div>';
+ return '<div class="grid g2 sect"><div class="card pad">'+sbStep(5,'الفسحة وأوقات الحصص','')+
+  '<div class="grid g2"><div class="field"><label>عدد الحصص في اليوم</label><input id="sb-ppd" type="number" min="1" max="12" value="'+sb.periodsPerDay+'"></div>'+
+  '<div class="field"><label>عدد حصص الفسحة أسبوعيًا</label><input id="sb-bpw" type="number" min="0" max="10" value="'+sb.breaksPerWeek+'"></div>'+
+  '<div class="field"><label>بعد الحصة رقم</label><input id="sb-bafter" type="number" min="0" max="12" value="'+sb.breakAfter+'"></div>'+
+  '<div class="field"><label>مدة الفسحة (دقيقة)</label><input id="sb-bmin" type="number" min="0" max="90" value="'+sb.breakMin+'"></div></div>'+
+  '<button class="btn primary" style="margin-top:10px;width:100%" onclick="sbSetBreak()">حفظ إعداد الفسحة</button>'+
+  '<div class="notice okn" style="margin-top:10px">الفسحة بعد الحصة '+sb.breakAfter+' لمدة '+sb.breakMin+' دقيقة، بواقع '+sb.breaksPerWeek+' فسحة أسبوعيًا.</div></div>'+
+  '<div class="card pad">'+sbStep(6,'توزيع الإشراف','')+
+  '<div class="checkrow"><span><b>جميع المعلمين</b></span><span><button class="btn '+(supAll?'ok':'')+'" onclick="sbAllSup(true)">☑ الكل</button> <button class="btn" onclick="sbAllSup(false)">إلغاء</button></span></div>'+sups+'</div></div>';
+}
+
+/* الفحص قبل الاعتماد */
+function sbValidate(){
+ var sb=D.sb,errs=[],warns=[],cap=SB_DAYS.length*sb.periodsPerDay;
+ if(!sb.teachers.length)errs.push('لم يتم اختيار أي معلم.');
+ if(!sb.classes.length)errs.push('لا توجد فصول.');
+ sb.classes.forEach(function(c){
+  var target=sbClassTarget(c);
+  if(target>cap)errs.push('حصص الفصل «'+c+'» ('+target+') تتجاوز المتاح أسبوعيًا ('+cap+').');
+  (sb.classSubjects[c]||[]).forEach(function(s){
+   var quota=sbQuota(s),sum=sbAssignSum(c,s);
+   if(sum>quota)errs.push('عدد الحصص المسندة لمادة «'+s+'» في «'+c+'» يتجاوز النصاب المحدد ('+sum+'/'+quota+').');
+   else if(sum<quota)warns.push('لم يكتمل توزيع حصص «'+s+'» للفصل «'+c+'» ('+sum+'/'+quota+').');
+  });
+ });
+ return {errs:errs,warns:warns};
+}
+function sbSecCheck(){
+ var v=sbValidate();
+ var list=function(a,cls){return a.length?a.map(function(x){return '<div class="notice '+cls+'" style="margin-bottom:6px">'+esc(x)+'</div>';}).join(''):'';};
+ return '<div class="card pad sect"><div class="sectitle">فحص ما قبل التوزيع</div>'+
+  '<div class="checkrow"><span>تجاوز النصاب (زيادة الحصص)</span><span class="tag '+(v.errs.length?'bad':'ok')+'">'+(v.errs.length?'يوجد '+v.errs.length:'سليم')+'</span></div>'+
+  '<div class="checkrow"><span>نقص الحصص عن النصاب</span><span class="tag '+(v.warns.length?'warn':'ok')+'">'+(v.warns.length?'يوجد '+v.warns.length:'سليم')+'</span></div>'+
+  '<div style="margin-top:10px">'+list(v.errs,'redn')+list(v.warns,'')+'</div>'+
+  '<button class="btn primary" style="width:100%;margin-top:12px;font-size:15px;padding:12px" onclick="generateSchedule()">🟦 توزيع الجدول</button></div>';
+}
+
+/* عرض الجدول الناتج */
+function sbGridTable(c){
+ var sb=D.sb,out=D.sbOut;if(!out||!out.classes||!out.classes[c])return '';
+ var g=out.classes[c];
+ var hdr='<tr><th>اليوم</th>';
+ for(var p=0;p<sb.periodsPerDay;p++){hdr+='<th>الحصة '+(p+1)+'</th>';if(p+1===sb.breakAfter&&sb.breakMin)hdr+='<th style="background:var(--gold);color:#fff">فسحة '+sb.breakMin+'د</th>';}
+ hdr+='</tr>';
+ var body=SB_DAYS.map(function(dn,d){
+  var tds='';
+  for(var p=0;p<sb.periodsPerDay;p++){
+   var cell=g[d][p];
+   tds+='<td>'+(cell?'<b>'+esc(cell.subject)+'</b><div class="tiny muted">'+esc(cell.teacher||'—')+'</div>':'<span class="tiny muted">—</span>')+'</td>';
+   if(p+1===sb.breakAfter&&sb.breakMin)tds+='<td style="background:#faf6ec" class="tiny muted">فسحة</td>';
+  }
+  return '<tr><td><b>'+dn+'</b></td>'+tds+'</tr>';
+ }).join('');
+ return '<div class="card pad sect"><div class="sectitle">'+esc(c)+'</div>'+(out.supervision?'':'')+'<div class="tablewrap"><table class="table">'+hdr+body+'</table></div></div>';
+}
+function sbSecOutput(){
+ var out=D.sbOut;if(!out||out.error)return '';
+ var sup=out.supervision||{};
+ var supRow=Object.keys(sup).length?'<div class="card pad sect"><div class="sectitle">مناوبة الإشراف اليومي</div>'+Object.keys(sup).map(function(d){return '<div class="checkrow"><span>'+d+'</span><b>'+esc(sup[d])+'</b></div>';}).join('')+'</div>':'';
+ var warn=(out.warnings||[]).length?'<div class="card pad sect"><div class="sectitle">تنبيهات التوزيع</div>'+out.warnings.map(function(w){return '<div class="notice" style="margin-bottom:6px">⚠️ '+esc(w)+'</div>';}).join('')+'</div>':'';
+ return '<div class="sect"><div class="sectitle">الجدول العام للمدرسة</div>'+
+  '<div class="grid g4">'+stat(D.sb.classes.length,'الفصول','▦')+stat(D.sb.teachers.length,'المعلمون','👥')+stat(out.conflicts,'التعارضات',out.conflicts?'⚠️':'✓')+stat((out.unplaced||[]).length,'حصص لم تُسند','▤')+'</div>'+
+  warn+supRow+D.sb.classes.map(sbGridTable).join('')+'</div>';
+}
+
+/* ================= الصفحة الرئيسية للجدول العام ================= */
+function pSchedule(){
+ sbInit();
+ var role_=(typeof role!=='undefined')?role:'school';
+ if(role_==='teacher'){pTeacherSchedule();return;}
+ window.sbTab=window.sbTab||'setup';
+ var tabs='<div class="card pad" style="display:flex;gap:8px;flex-wrap:wrap">'+
+  '<button class="btn '+(window.sbTab==='setup'?'primary':'')+'" onclick="window.sbTab=\'setup\';pSchedule()">إعداد الجدول</button>'+
+  '<button class="btn '+(window.sbTab==='result'?'primary':'')+'" onclick="window.sbTab=\'result\';pSchedule()">الجدول العام الناتج</button>'+
+  '<button class="btn '+(window.sbTab==='teachers'?'primary':'')+'" onclick="window.sbTab=\'teachers\';pSchedule()">جداول المعلمين</button></div>';
+ var body='';
+ if(window.sbTab==='setup'){
+  body=sbSecTeachers()+sbSecClasses()+sbSecSubjects()+sbSecAssign()+sbSecBreakSup()+sbSecCheck();
+ } else if(window.sbTab==='result'){
+  body=D.sbOut&&!D.sbOut.error?sbSecOutput():'<div class="card pad sect"><div class="empty">لم يتم توليد الجدول بعد. افتح «إعداد الجدول» ثم اضغط «توزيع الجدول».</div></div>';
+ } else {
+  body=sbTeacherBoards();
+ }
+ document.getElementById('view').innerHTML=H('الجدول العام','نظام إنشاء جدول فعلي: المعلمون والفصول والمواد والنصاب والفسحة والإشراف ثم التوزيع الآلي',
+  '<button class="btn gold" onclick="generateSchedule()">🟦 توزيع الجدول</button><button class="btn" onclick="sbPrint()">⇩ طباعة العام</button><button class="btn" onclick="sbPrintTeachers()">⇩ طباعة جداول المعلمين</button>')+tabs+body;
+}
+
+/* جداول المعلمين المولّدة تلقائيًا */
+function sbTeacherGrid(t){
+ var sb=D.sb,out=D.sbOut;if(!out||!out.classes)return null;
+ var g=[];for(var d=0;d<SB_DAYS.length;d++){g.push([]);for(var p=0;p<sb.periodsPerDay;p++)g[d].push(null);}
+ Object.keys(out.classes).forEach(function(c){out.classes[c].forEach(function(row,d){row.forEach(function(cell,p){if(cell&&cell.teacher===t)g[d][p]={subject:cell.subject,cls:c};});});});
+ return g;
+}
+function sbTeacherBoards(){
+ var sb=D.sb,out=D.sbOut;
+ if(!out||out.error||!out.classes)return '<div class="card pad sect"><div class="empty">ولّد الجدول أولًا لتظهر جداول المعلمين.</div></div>';
+ return '<div class="sect">'+sb.teachers.map(function(t){
+  var g=sbTeacherGrid(t),n=0;
+  var hdr='<tr><th>اليوم</th>';for(var p=0;p<sb.periodsPerDay;p++)hdr+='<th>'+(p+1)+'</th>';hdr+='</tr>';
+  var body=SB_DAYS.map(function(dn,d){var tds='';for(var p=0;p<sb.periodsPerDay;p++){var c=g[d][p];if(c)n++;tds+='<td>'+(c?'<b>'+esc(c.subject)+'</b><div class="tiny muted">'+esc(c.cls)+'</div>':'<span class="tiny muted">—</span>')+'</td>';}return '<tr><td><b>'+dn+'</b></td>'+tds+'</tr>';}).join('');
+  var m=sb.meta[t]||{};
+  return '<div class="card pad" style="margin-bottom:12px"><div class="sectitle">'+esc(t)+' <span class="tag ok">'+n+' حصة</span></div><div class="tiny muted">هوية: '+esc(m.nid||'—')+' · تخصص: '+esc(m.spec||'—')+'</div><div class="tablewrap" style="margin-top:8px"><table class="table">'+hdr+body+'</table></div></div>';
+ }).join('')+'</div>';
+}
+function pTeacherSchedule(){
+ sbInit();var me=D.sb.teachers[0]||'—';var out=D.sbOut;
+ var content=(out&&!out.error&&out.classes)?(function(){var g=sbTeacherGrid(me);var sb=D.sb;
+  var hdr='<tr><th>اليوم</th>';for(var p=0;p<sb.periodsPerDay;p++)hdr+='<th>الحصة '+(p+1)+'</th>';hdr+='</tr>';
+  var body=SB_DAYS.map(function(dn,d){var tds='';for(var p=0;p<sb.periodsPerDay;p++){var c=g[d][p];tds+='<td>'+(c?'<b>'+esc(c.subject)+'</b><div class="tiny muted">'+esc(c.cls)+'</div>':'<span class="tiny muted">—</span>')+'</td>';}return '<tr><td><b>'+dn+'</b></td>'+tds+'</tr>';}).join('');
+  return '<div class="card pad sect"><div class="sectitle">جدولي الأسبوعي</div><div class="tablewrap"><table class="table">'+hdr+body+'</table></div></div>';})():'<div class="card pad sect"><div class="empty">لم يعتمد مدير المدرسة الجدول بعد.</div></div>';
+ document.getElementById('view').innerHTML=H('الجدول','جدولك المولّد من الجدول العام للمدرسة','<button class="btn" onclick="sbPrint()">⇩ طباعة</button>')+content;
+}
+
+/* الطباعة */
+function sbPrintDoc(title,inner){
+ var w=window.open('','_blank');if(!w){toast('اسمح بالنوافذ المنبثقة للطباعة');return;}
+ w.document.write('<html dir="rtl" lang="ar"><head><meta charset="utf-8"><title>'+title+'</title><style>body{font-family:Tajawal,Arial,sans-serif;padding:24px;color:#111}h1{font-size:19px;text-align:center;color:#0c2a49}h2{font-size:15px;margin:18px 0 6px;color:#0c2a49}table{width:100%;border-collapse:collapse;margin-bottom:14px;font-size:12px}th,td{border:1px solid #999;padding:6px;text-align:center}th{background:#eef2f7}.m{text-align:center;color:#555;font-size:12px;margin-bottom:14px}</style></head><body>'+inner+'</body></html>');
+ w.document.close();w.focus();w.print();
+}
+function sbPrint(){
+ var sb=D.sb,out=D.sbOut;if(!out||out.error||!out.classes){toast('ولّد الجدول أولًا');return;}
+ var html='<h1>الجدول العام — '+esc(D.school||'')+'</h1><div class="m">تاريخ التوليد: '+esc(out.generatedAt||'')+'</div>';
+ sb.classes.forEach(function(c){var g=out.classes[c];if(!g)return;
+  html+='<h2>'+esc(c)+'</h2><table><tr><th>اليوم</th>';for(var p=0;p<sb.periodsPerDay;p++)html+='<th>الحصة '+(p+1)+'</th>';html+='</tr>';
+  SB_DAYS.forEach(function(dn,d){html+='<tr><td><b>'+dn+'</b></td>';for(var p=0;p<sb.periodsPerDay;p++){var cell=g[d][p];html+='<td>'+(cell?esc(cell.subject)+'<br><small>'+esc(cell.teacher||'')+'</small>':'—')+'</td>';}html+='</tr>';});
+  html+='</table>';});
+ sbPrintDoc('الجدول العام',html);
+}
+function sbPrintTeachers(){
+ var sb=D.sb,out=D.sbOut;if(!out||out.error||!out.classes){toast('ولّد الجدول أولًا');return;}
+ var html='<h1>جداول المعلمين — '+esc(D.school||'')+'</h1>';
+ sb.teachers.forEach(function(t){var g=sbTeacherGrid(t);
+  html+='<h2>'+esc(t)+'</h2><table><tr><th>اليوم</th>';for(var p=0;p<sb.periodsPerDay;p++)html+='<th>'+(p+1)+'</th>';html+='</tr>';
+  SB_DAYS.forEach(function(dn,d){html+='<tr><td><b>'+dn+'</b></td>';for(var p=0;p<sb.periodsPerDay;p++){var c=g[d][p];html+='<td>'+(c?esc(c.subject)+'<br><small>'+esc(c.cls)+'</small>':'—')+'</td>';}html+='</tr>';});
+  html+='</table>';});
+ sbPrintDoc('جداول المعلمين',html);
+}
+
+/* ================= المساءلات الإلكترونية — دورة كاملة ================= */
+var ACC_REASONS=['غياب','تأخر','غياب عن حصة','أخرى'];
+var ACC_STATUS={open:['بانتظار تبرير المعلم','warn'],responded:['بانتظار مراجعة المدير','info'],approved:['اعتُمد الإجراء','ok'],rejected:['رُفضت المساءلة','ok'],escalated:['استُكمل الإجراء','bad']};
+function accInit(){D.acc=D.acc||[];D.accSeq=D.accSeq||0;D.currentTeacher=D.currentTeacher||(D.teachers&&D.teachers[0])||'';return D.acc;}
+function accSerial(){D.accSeq=(D.accSeq||0)+1;return 'M-'+new Date().getFullYear()+'-'+String(D.accSeq).padStart(4,'0');}
+function hijri(dt){try{return new Intl.DateTimeFormat('ar-SA-u-ca-islamic-nu-latn',{year:'numeric',month:'2-digit',day:'2-digit'}).format(dt||new Date()).replace(/\u200f/g,'');}catch(e){return '—';}}
+function greg(dt){dt=dt||new Date();return dt.getFullYear()+'-'+String(dt.getMonth()+1).padStart(2,'0')+'-'+String(dt.getDate()).padStart(2,'0');}
+function clock(dt){dt=dt||new Date();return String(dt.getHours()).padStart(2,'0')+':'+String(dt.getMinutes()).padStart(2,'0');}
+function accTeacherMeta(name){var m=(D.sb&&D.sb.meta&&D.sb.meta[name])||{};return {nid:m.nid||'—',spec:m.spec||'—'};}
+function accOpenFor(name){accInit();return D.acc.filter(function(a){return a.teacher===name&&a.status==='open';});}
+function accFind(id){accInit();return D.acc.find(function(a){return a.id===id;});}
+
+/* ---------- نص الخطاب ---------- */
+function accLetter(a){
+ return '<div class="notice">السلام عليكم ورحمة الله وبركاته<br>تحية طيبة، وبعد:</div>'+
+  '<div class="grid g2 sect"><div class="checkrow"><span>اسم المعلم</span><b>'+esc(a.teacher)+'</b></div>'+
+  '<div class="checkrow"><span>رقم الهوية</span><b>'+esc(a.nid)+'</b></div>'+
+  '<div class="checkrow"><span>التخصص</span><b>'+esc(a.spec||'—')+'</b></div>'+
+  '<div class="checkrow"><span>الرقم الإلكتروني</span><b>'+esc(a.id)+'</b></div>'+
+  '<div class="checkrow"><span>التاريخ الهجري</span><b>'+esc(a.hijri)+'</b></div>'+
+  '<div class="checkrow"><span>التاريخ الميلادي</span><b>'+esc(a.greg)+'</b></div>'+
+  '<div class="checkrow"><span>الوقت</span><b>'+esc(a.time)+'</b></div></div>'+
+  '<div class="sectitle">سبب المساءلة</div><div class="notice redn">'+esc(a.reasonText)+'</div>'+
+  (a.details?'<div class="sect"><div class="sectitle">تفاصيل الواقعة</div><p>'+esc(a.details)+'</p></div>':'');
+}
+function accReasonText(reason,other,dateStr){
+ var base={'غياب':'غياب المعلم عن العمل بتاريخ '+dateStr,'تأخر':'تأخر المعلم عن الدوام الرسمي بتاريخ '+dateStr,'غياب عن حصة':'غياب المعلم عن حصته المقررة بتاريخ '+dateStr};
+ return reason==='أخرى'?(other||'أخرى'):base[reason];
+}
+
+/* ---------- إنشاء (مدير المدرسة) ---------- */
+function accNew(){
+ accInit();
+ var ts=D.teachers||[];
+ if(!ts.length){toast('لا يوجد معلمون');return;}
+ openM('إنشاء مساءلة إلكترونية',
+  '<div class="notice">يُنشئ النظام رقمًا إلكترونيًا تسلسليًا ويُرسل الخطاب لحساب المعلم فورًا.</div>'+
+  '<div class="grid g2 sect"><div class="field"><label>المعلم *</label><select id="ac-t" onchange="accFillMeta()">'+ts.map(function(n){return '<option>'+esc(n)+'</option>';}).join('')+'</select></div>'+
+  '<div class="field"><label>رقم الهوية</label><input id="ac-nid" readonly value="'+esc(accTeacherMeta(ts[0]).nid)+'"></div>'+
+  '<div class="field"><label>سبب المساءلة *</label><select id="ac-r" onchange="document.getElementById(\'ac-other-wrap\').style.display=this.value===\'أخرى\'?\'block\':\'none\'">'+ACC_REASONS.map(function(r){return '<option>'+r+'</option>';}).join('')+'</select></div>'+
+  '<div class="field" id="ac-other-wrap" style="display:none"><label>اذكر السبب</label><input id="ac-other" placeholder="السبب"></div>'+
+  '<div class="field"><label>التاريخ الميلادي</label><input type="date" id="ac-date" value="'+greg()+'"></div>'+
+  '<div class="field"><label>التاريخ الهجري</label><input id="ac-hij" readonly value="'+hijri()+'"></div>'+
+  '<div class="field"><label>الوقت</label><input type="time" id="ac-time" value="'+clock()+'"></div></div>'+
+  '<div class="field"><label>تفاصيل الواقعة</label><textarea id="ac-det" rows="4" placeholder="تفاصيل إضافية (اختياري)"></textarea></div>',
+  '<button class="btn" onclick="closeM()">إلغاء</button><button class="btn primary" onclick="accSave()">إرسال المساءلة للمعلم</button>');
+}
+function accFillMeta(){var n=document.getElementById('ac-t').value;document.getElementById('ac-nid').value=accTeacherMeta(n).nid;}
+function accSave(){
+ accInit();
+ var t=document.getElementById('ac-t').value,r=document.getElementById('ac-r').value;
+ var other=(document.getElementById('ac-other')||{}).value||'';
+ if(r==='أخرى'&&!other.trim()){toast('اكتب سبب المساءلة');return;}
+ var dt=document.getElementById('ac-date').value||greg();
+ var meta=accTeacherMeta(t);
+ var a={id:accSerial(),teacher:t,nid:meta.nid,spec:meta.spec,reason:r,reasonOther:other.trim(),
+   reasonText:accReasonText(r,other.trim(),dt),details:document.getElementById('ac-det').value.trim(),
+   greg:dt,hijri:hijri(new Date(dt)),time:document.getElementById('ac-time').value||clock(),
+   createdAt:greg()+' '+clock(),status:'open',reply:'',replyAt:'',files:[],decision:'',decisionAt:'',decisionNote:''};
+ D.acc.unshift(a);
+ D.audit&&D.audit.unshift([greg(),'مدير المدرسة','إنشاء مساءلة '+a.id+' على '+t,'نجاح']);
+ save();closeM();pAccountability();toast('تم إرسال المساءلة '+a.id+' إلى حساب المعلم');
+}
+
+/* ---------- عرض / فتح ---------- */
+function accView(id){
+ var a=accFind(id);if(!a){toast('المساءلة غير موجودة');return;}
+ var st=ACC_STATUS[a.status]||['—','info'];
+ var body=accLetter(a)+'<div class="checkrow"><span>حالة المساءلة</span><span class="tag '+st[1]+'">'+st[0]+'</span></div>';
+ if(a.reply)body+='<div class="sect"><div class="sectitle">رد المعلم على المساءلة</div><div class="notice okn">'+esc(a.reply)+'</div><div class="tiny muted">تاريخ ووقت الرد: '+esc(a.replyAt)+'</div>'+
+   ((a.files||[]).length?'<div class="tiny" style="margin-top:6px">المرفقات: '+a.files.map(function(f){return '<span class="tag info">'+esc(f.name)+'</span>';}).join(' ')+'</div>':'<div class="tiny muted" style="margin-top:6px">لا توجد مرفقات.</div>')+'</div>';
+ if(a.decision)body+='<div class="sect"><div class="sectitle">إجراء مدير المدرسة</div><div class="notice">'+esc(a.decision)+(a.decisionNote?' — '+esc(a.decisionNote):'')+'<div class="tiny muted">'+esc(a.decisionAt)+'</div></div></div>';
+ var foot='<button class="btn" onclick="closeM()">إغلاق</button><button class="btn" onclick="accPrint(\''+q(a.id)+'\')">⇩ طباعة</button>';
+ if(role==='teacher'&&a.status==='open')foot+='<button class="btn primary" onclick="accReplyForm(\''+q(a.id)+'\')">تقديم التبرير</button>';
+ if(role==='school'&&a.status==='responded')foot+='<button class="btn primary" onclick="accDecide(\''+q(a.id)+'\')">مراجعة واتخاذ الإجراء</button>';
+ openM('المساءلة '+a.id,body,foot);
+}
+
+/* ---------- رد المعلم ---------- */
+function accReplyForm(id){
+ var a=accFind(id);if(!a)return;
+ window.__accFiles=[];
+ openM('رد المعلم على المساءلة '+a.id,
+  accLetter(a)+'<div class="sectitle">رد المعلم على المساءلة</div>'+
+  '<div class="field"><label>التبرير / الإفادة *</label><textarea id="ac-reply" rows="5" placeholder="اكتب تبريرك أو إفادتك"></textarea></div>'+
+  '<div class="field"><label>إرفاق مستند (اختياري)</label><input type="file" id="ac-file" multiple onchange="accPickFiles(this)"><div id="ac-files" class="tiny muted" style="margin-top:6px">لم يتم إرفاق مستندات.</div></div>',
+  '<button class="btn" onclick="closeM()">إلغاء</button><button class="btn primary" onclick="accReplySave(\''+q(id)+'\')">إرسال التبرير</button>');
+}
+function accPickFiles(inp){
+ window.__accFiles=[];
+ var fl=inp.files||[];
+ for(var i=0;i<fl.length;i++)window.__accFiles.push({name:fl[i].name,size:fl[i].size});
+ var el=document.getElementById('ac-files');
+ if(el)el.innerHTML=window.__accFiles.length?window.__accFiles.map(function(f){return '<span class="tag info">'+esc(f.name)+'</span>';}).join(' '):'لم يتم إرفاق مستندات.';
+}
+function accReplySave(id){
+ var a=accFind(id);if(!a)return;
+ var r=document.getElementById('ac-reply').value.trim();
+ if(!r){toast('اكتب التبرير قبل الإرسال');return;}
+ a.reply=r;a.files=window.__accFiles||[];a.replyAt=greg()+' '+clock();a.status='responded';
+ D.audit&&D.audit.unshift([greg(),'المعلم','تقديم تبرير المساءلة '+a.id,'نجاح']);
+ save();closeM();window.__accFiles=[];
+ render();toast('تم إرسال التبرير إلى مدير المدرسة');
+}
+
+/* ---------- إجراء المدير ---------- */
+function accDecide(id){
+ var a=accFind(id);if(!a)return;
+ openM('مراجعة المساءلة '+a.id,
+  '<div class="notice okn">رد المعلم:<br>'+esc(a.reply||'—')+'</div>'+
+  ((a.files||[]).length?'<div class="tiny" style="margin-bottom:8px">المرفقات: '+a.files.map(function(f){return '<span class="tag info">'+esc(f.name)+'</span>';}).join(' ')+'</div>':'')+
+  '<div class="field"><label>الإجراء *</label><select id="ac-dec"><option value="اعتماد الإجراء">اعتماد الإجراء</option><option value="رفض المساءلة">رفض المساءلة</option><option value="استكمال الإجراء">استكمال الإجراء وفق الصلاحية</option></select></div>'+
+  '<div class="field"><label>ملاحظة المدير</label><textarea id="ac-decnote" rows="3"></textarea></div>',
+  '<button class="btn" onclick="closeM()">إلغاء</button><button class="btn primary" onclick="accDecideSave(\''+q(id)+'\')">اعتماد</button>');
+}
+function accDecideSave(id){
+ var a=accFind(id);if(!a)return;
+ var dec=document.getElementById('ac-dec').value;
+ a.decision=dec;a.decisionNote=document.getElementById('ac-decnote').value.trim();a.decisionAt=greg()+' '+clock();
+ a.status=dec==='اعتماد الإجراء'?'approved':(dec==='رفض المساءلة'?'rejected':'escalated');
+ D.audit&&D.audit.unshift([greg(),'مدير المدرسة',dec+' — المساءلة '+a.id,'نجاح']);
+ save();closeM();pAccountability();toast('تم تسجيل الإجراء');
+}
+
+/* ---------- الطباعة ---------- */
+function accPrint(id){
+ var a=accFind(id);if(!a)return;
+ var w=window.open('','_blank');if(!w){toast('اسمح بالنوافذ المنبثقة');return;}
+ w.document.write('<html dir="rtl" lang="ar"><head><meta charset="utf-8"><title>مساءلة '+a.id+'</title><style>body{font-family:Tajawal,Arial,sans-serif;padding:30px;color:#111;line-height:2}h1{font-size:18px;text-align:center;color:#0c2a49}table{width:100%;border-collapse:collapse;margin:14px 0}td,th{border:1px solid #999;padding:7px;font-size:13px}.sig{margin-top:60px;text-align:left}</style></head><body>'+
+  '<h1>خطاب مساءلة إلكترونية — '+a.id+'</h1><p>السلام عليكم ورحمة الله وبركاته<br>تحية طيبة، وبعد:</p>'+
+  '<table><tr><th>اسم المعلم</th><td>'+a.teacher+'</td><th>رقم الهوية</th><td>'+a.nid+'</td></tr>'+
+  '<tr><th>التاريخ الهجري</th><td>'+a.hijri+'</td><th>التاريخ الميلادي</th><td>'+a.greg+'</td></tr>'+
+  '<tr><th>الوقت</th><td>'+a.time+'</td><th>الحالة</th><td>'+(ACC_STATUS[a.status]||[''])[0]+'</td></tr></table>'+
+  '<p><b>سبب المساءلة:</b> '+a.reasonText+'</p>'+(a.details?'<p><b>التفاصيل:</b> '+a.details+'</p>':'')+
+  (a.reply?'<p><b>رد المعلم:</b> '+a.reply+'<br><small>'+a.replyAt+'</small></p>':'')+
+  (a.decision?'<p><b>إجراء مدير المدرسة:</b> '+a.decision+' '+(a.decisionNote||'')+'<br><small>'+a.decisionAt+'</small></p>':'')+
+  '<div class="sig">مدير المدرسة: ______________</div></body></html>');
+ w.document.close();w.focus();w.print();
+}
+
+/* ---------- صفحة المساءلات ---------- */
+function accRow(a,forTeacher){
+ var st=ACC_STATUS[a.status]||['—','info'];
+ return '<tr><td><b>'+esc(a.id)+'</b></td>'+
+  (forTeacher?'':'<td>'+esc(a.teacher)+'<div class="tiny muted">هوية '+esc(a.nid)+'</div></td>')+
+  '<td><b>'+esc(a.reason)+'</b><div class="tiny muted">'+esc(a.reasonText)+'</div></td>'+
+  '<td>'+esc(a.greg)+' · '+esc(a.time)+'<div class="tiny muted">'+esc(a.hijri)+' هـ</div></td>'+
+  '<td><span class="tag '+st[1]+'">'+st[0]+'</span></td>'+
+  '<td><button class="btn" onclick="accView(\''+q(a.id)+'\')">فتح</button>'+
+   (!forTeacher&&a.status==='responded'?' <button class="btn primary" onclick="accDecide(\''+q(a.id)+'\')">مراجعة</button>':'')+
+   (forTeacher&&a.status==='open'?' <button class="btn primary" onclick="accReplyForm(\''+q(a.id)+'\')">تقديم التبرير</button>':'')+
+  '</td></tr>';
+}
+function pAccountability(){
+ accInit();
+ if(role==='teacher')return pAccTeacher();
+ var list=D.acc;
+ var open=list.filter(function(a){return a.status==='open';}).length;
+ var rev=list.filter(function(a){return a.status==='responded';}).length;
+ var done=list.filter(function(a){return ['approved','rejected','escalated'].indexOf(a.status)>-1;}).length;
+ var rows=list.length?list.map(function(a){return accRow(a,false);}).join(''):'<tr><td colspan="6"><div class="empty">لا توجد مساءلات.</div></td></tr>';
+ document.getElementById('view').innerHTML=H('المساءلات','خطاب إلكتروني متسلسل من الإنشاء إلى التبرير إلى القرار النهائي','<button class="btn gold" onclick="accNew()">＋ مساءلة إلكترونية</button>')+
+  '<div class="grid g4">'+stat(list.length,'إجمالي المساءلات','▤')+stat(open,'بانتظار التبرير','⏱')+stat(rev,'بانتظار مراجعتك','◎')+stat(done,'منتهية','✓')+'</div>'+
+  (rev?'<div class="notice sect">لديك '+rev+' مساءلة بانتظار المراجعة واتخاذ الإجراء.</div>':'')+
+  '<div class="card pad sect"><div class="sectitle">سجل المساءلات</div><div class="tablewrap"><table class="table"><tr><th>الرقم الإلكتروني</th><th>المعلم</th><th>السبب</th><th>التاريخ والوقت</th><th>الحالة</th><th></th></tr>'+rows+'</table></div></div>'+
+  '<div class="card pad sect"><div class="sectitle">السجل التفصيلي</div><div class="tablewrap"><table class="table"><tr><th>الرقم</th><th>المعلم</th><th>السبب</th><th>الإنشاء</th><th>رد المعلم</th><th>المرفقات</th><th>وقت الرد</th><th>إجراء المدير</th><th>الحالة</th></tr>'+
+  (list.length?list.map(function(a){var st=ACC_STATUS[a.status]||['—','info'];return '<tr><td>'+esc(a.id)+'</td><td>'+esc(a.teacher)+'</td><td>'+esc(a.reason)+'</td><td class="tiny">'+esc(a.createdAt)+'</td><td class="tiny">'+esc(a.reply||'—')+'</td><td class="tiny">'+((a.files||[]).length?a.files.map(function(f){return esc(f.name);}).join('، '):'—')+'</td><td class="tiny">'+esc(a.replyAt||'—')+'</td><td class="tiny">'+esc(a.decision||'—')+'</td><td><span class="tag '+st[1]+'">'+st[0]+'</span></td></tr>';}).join(''):'<tr><td colspan="9"><div class="empty">لا يوجد سجل.</div></td></tr>')+
+  '</table></div></div>'+
+  '<div class="notice redn sect">عند وجود مساءلة مفتوحة على المعلم، يُمنع استخدام صفحات المعلم حتى تقديم التبرير، مع إبقاء شاشة المساءلة متاحة.</div>';
+}
+function pAccTeacher(){
+ accInit();
+ var me=D.currentTeacher||(D.teachers||[])[0]||'';
+ var mine=D.acc.filter(function(a){return a.teacher===me;});
+ var openList=mine.filter(function(a){return a.status==='open';});
+ var rows=mine.length?mine.map(function(a){return accRow(a,true);}).join(''):'<tr><td colspan="5"><div class="empty">لا توجد مساءلات على حسابك.</div></td></tr>';
+ document.getElementById('view').innerHTML=H('المساءلات','المساءلات الواردة إلى حسابك — '+esc(me),'')+
+  (openList.length?'<div class="notice redn">لديك '+openList.length+' مساءلة مفتوحة. لا يمكن استخدام بقية صفحات المعلم حتى تقديم التبرير المطلوب.</div>':'<div class="notice okn">لا توجد مساءلات مفتوحة على حسابك.</div>')+
+  '<div class="card pad sect"><div class="tablewrap"><table class="table"><tr><th>الرقم الإلكتروني</th><th>السبب</th><th>التاريخ والوقت</th><th>الحالة</th><th></th></tr>'+rows+'</table></div></div>';
+}
+
+/* ---------- حجب صفحات المعلم عند وجود مساءلة مفتوحة ---------- */
+function accGateActive(){
+ accInit();
+ if(role!=='teacher')return false;
+ var me=D.currentTeacher||(D.teachers||[])[0]||'';
+ return accOpenFor(me).length>0;
+}
+function accBlockedScreen(){
+ var me=D.currentTeacher||(D.teachers||[])[0]||'';
+ var list=accOpenFor(me);
+ document.getElementById('view').innerHTML=H('مساءلة مفتوحة','يلزم تقديم التبرير قبل متابعة استخدام النظام','')+
+  '<div class="notice redn">لديك '+list.length+' مساءلة مفتوحة تتطلب ردًا. تم تقييد الوصول لبقية الصفحات مؤقتًا، وتبقى شاشة المساءلة متاحة للرد.</div>'+
+  list.map(function(a){return '<div class="card pad sect">'+accLetter(a)+
+   '<div style="display:flex;gap:8px;margin-top:10px"><button class="btn primary" onclick="accReplyForm(\''+q(a.id)+'\')">تقديم التبرير الآن</button><button class="btn" onclick="accView(\''+q(a.id)+'\')">عرض الخطاب</button></div></div>';}).join('');
+}
+
+function render(){ if(typeof accGateActive==="function" && accGateActive() && route!=="accountability"){ accBlockedScreen(); return; } return renderBase(); }
+function renderBase(){let f={home:pHome,schools:pSchools,roles:pRoles,schedule:pSchedule,teachers:pTeachers,students:pStudents,attendance:pAttendance,lesson:pLesson,participation:pParticipation,homework:pHomework,grades:pGrades,referrals:pReferrals,parent:pParent,correction:pCorrection,accountability:pAccountability,meetings:pMeetings,circulars:pCirculars,reports:pReports,calendar:pCalendar,subscriptions:pSubscriptions,features:pFeatures,themes:pThemes,support:pSupport,audit:pAudit,backups:pBackups,school:pSchool,settings:pSettings};(f[route]||pHome)()}
+function pHome(){let cards=role==='teacher'?[['📝','تحضير الحصة','كشف موحد ذكي للحضور والمشاركة والسلوك والواجب والتسميع','lesson'],['🖨️','التصحيح الإلكتروني','منشئ الاختبار، مفتاح الإجابة، QR/باركود، التصوير، المراجعة والاعتماد','correction'],['👨‍👩‍👧','متابعة ولي الأمر','بطاقة رقمية بإقرار إلكتروني ومحتوى يختاره المعلم','parent'],['🎓','بطاقة الطالب','ملف الطالب الأكاديمي والسلوكي والمهاري','students'],['📊','الدرجات','كشف درجات واعتماد وتاريخ تعديلات','grades'],['⭐','المشاركة والسلوك','رصد وتحليل السلوك والإحالة الذكية','participation']]:role==='school'?[['🗓️','الجدول العام','بناء مرئي ومنع تعارض لحظي واعتماد المعلمين','schedule'],['⚖️','المساءلات','خطاب إلكتروني وتبرير ومرفق وقرار','accountability'],['🤝','الاجتماعات','دعوات وتأكيدات واعتذارات','meetings'],['📄','التعاميم','PDF وإقرار وتوقيع وتتبع','circulars'],['📊','التقارير','مؤشرات تشغيلية وتفصيلية','reports'],['👥','الأدوار','أكثر من دور وصلاحيات قابلة للتخصيص','roles']]:[['🏫','إدارة المدارس','عزل متعدد المدارس واستحقاقات','schools'],['🧩','مركز الميزات','إضافة وظائف مستقبلية دون إعادة بناء النواة','features'],['🎨','الثيمات','مناسبات وطنية وجدولة وأولوية','themes'],['📅','التقويم الدراسي','إصدارات وتحديثات رسمية','calendar'],['💳','الاشتراكات','خطط واستحقاقات دون حذف البيانات','subscriptions'],['🛡️','التدقيق والأمان','سجل مركزي ونسخ احتياطي','audit']];document.getElementById('view').innerHTML=H('الرئيسية','مركز القيادة والعمليات')+`<div class="hero"><h2>${role==='teacher'?'أهلًا بك في منظومتك التعليمية':role==='school'?'لوحة قيادة المدرسة':'لوحة قيادة المنصة العالمية'}</h2><p>${role==='teacher'?'كل أدواتك اليومية في تجربة واحدة دقيقة وسريعة.':role==='school'?'رؤية تشغيلية شاملة للمدرسة والموظفين والطلاب.':'إدارة مركزية متعددة المدارس قابلة للتوسع والأمان.'}</p><div class="kpis"><div class="kpi"><b>72</b><span>طالبًا</span></div><div class="kpi"><b>38</b><span>حصة اليوم</span></div><div class="kpi"><b>96%</b><span>نسبة التحضير</span></div><div class="kpi"><b>3</b><span>إجراءات معلقة</span></div></div></div><div class="sect"><div class="sectitle">مركز الإجراءات</div><div class="grid g3">${cards.map(c=>feature(...c)).join('')}</div></div><div class="grid g2 sect"><div class="card pad"><div class="sectitle">النشاط الأخير</div><div class="timeline">${D.audit.map(a=>`<div class="event"><i class="dot"></i><div><b>${a[2]}</b><div style="font-size:9px;color:var(--muted)">${a[1]} · ${a[0]} · ${a[3]}</div></div></div>`).join('')}</div></div><div class="card pad"><div class="sectitle">حالة المنظومة</div><div class="checkrow"><span>التصميم والواجهات</span><span class="tag ok">مكتمل تجريبياً</span></div><div class="checkrow"><span>الوظائف الداخلية</span><span class="tag ok">مبنية تجريبياً</span></div><div class="checkrow"><span>المصادقة السحابية</span><span class="tag warn">مرحلة الربط</span></div><div class="checkrow"><span>OMR والكاميرا</span><span class="tag warn">مرحلة الربط</span></div></div></div>`}
+function pSchools(){document.getElementById('view').innerHTML=H('إدارة المدارس','مركز المؤسسات والاشتراكات','<button class="btn gold" onclick="schoolNew()">＋ مدرسة</button>')+`<div class="grid g4">${stat(12,'المدارس','🏫')}${stat(11,'نشطة','✓')}${stat(1,'تجريبية','◌')}${stat(0,'موقوفة','⏸')}</div><div class="card pad sect"><div class="tablewrap"><table class="table"><tr><th>المدرسة</th><th>الرمز</th><th>المدير</th><th>الخطة</th><th>الحالة</th><th></th></tr><tr><td><b>${D.school}</b><div style="color:var(--muted);font-size:9px">الرياض · نطاق المدرسة</div></td><td>SCH-001</td><td>سعود القرشي</td><td><span class="tag purple">احترافية</span></td><td><span class="tag ok">نشطة</span></td><td><button class="btn" onclick="schoolNew()">إدارة</button></td></tr></table></div></div>`}
+function schoolNew(){openM('ملف المدرسة',`<div class="stepper"><div class="step on"><i>1</i> البيانات</div><div class="line"></div><div class="step"><i>2</i> المدير</div><div class="line"></div><div class="step"><i>3</i> الخطة</div><div class="line"></div><div class="step"><i>4</i> التفعيل</div></div><div class="grid g2"><div class="field"><label>اسم المدرسة</label><input id="sn" value="${D.school}"></div><div class="field"><label>رمز المدرسة</label><input value="SCH-001"></div><div class="field"><label>المدينة</label><input value="الرياض"></div><div class="field"><label>المدير</label><input value="سعود القرشي"></div></div>`,`<button class="btn primary" onclick="D.school=document.getElementById('sn').value;save();closeM();pSchools();toast('تم حفظ ملف المدرسة')">حفظ واستمرار</button>`)}
+function pRoles(){document.getElementById('view').innerHTML=H('المستخدمون والأدوار','نظام صلاحيات متعدد الأدوار مع نطاق المدرسة','<button class="btn gold" onclick="userNew()">＋ مستخدم</button><button class="btn" onclick="customRole()">＋ دور مخصص</button>')+`<div class="notice warnn">مدير المدرسة ينشئ أدوار موظفي مدرسته ويجمع أكثر من دور للمستخدم. النظام المركزي يضع الإطار والحدود القصوى.</div><div class="grid g3 sect">${D.teachers.map((n,i)=>`<div class="card pad"><div style="display:flex;justify-content:space-between"><div><b>${n}</b><div style="font-size:9px;color:var(--muted)">هوية: 10${i+1}222222</div></div><div class="av" style="width:37px;height:37px">م</div></div><div style="margin:12px 0"><span class="tag info">معلم</span> ${i===0?'<span class="tag purple">مرشد</span>':''}</div><button class="btn" style="width:100%" onclick="permission('${n}')">الأدوار والصلاحيات</button></div>`).join('')}</div>`}
+function userNew(){openM('إنشاء مستخدم وإسناد أدوار',`<div class="grid g2"><div class="field"><label>الاسم الرباعي</label><input></div><div class="field"><label>رقم الهوية</label><input></div><div class="field"><label>اختيار من قائمة المعلمين</label><select>${D.teachers.map(n=>`<option>${n}</option>`).join('')}</select></div><div class="field"><label>حالة الحساب</label><select><option>نشط</option><option>موقوف</option></select></div></div><div class="sectitle">الأدوار</div><div class="grid g2">${['معلم','مرشد طلابي','وكيل طلاب','وكيل المدرسة','دور مخصص'].map(x=>`<label class="rolebox"><input type="checkbox"> ${x}</label>`).join('')}</div>` ,'<button class="btn primary" onclick="closeM();toast(\'تم إنشاء المستخدم تجريبياً\')">حفظ المستخدم</button>')}
+function customRole(){openM('إنشاء دور مخصص',`<div class="field"><label>اسم الدور</label><input value="منسق أكاديمي"></div><div class="field"><label>الوصف</label><textarea rows="3"></textarea></div><div class="sectitle">الصلاحيات</div>${['قراءة التقارير','إدارة الطلاب','إدارة الحضور','إدارة الاجتماعات','إدارة التعاميم','تصدير البيانات'].map(x=>`<div class="checkrow"><span>${x}</span><div class="switch on"><i></i></div></div>`).join('')}`,'<button class="btn primary" onclick="closeM();toast(\'تم حفظ الدور المخصص\')">إنشاء الدور</button>')}
+function permission(n){openM('مصفوفة الصلاحيات — '+n,`<div class="notice">يمكن للمستخدم امتلاك أكثر من دور. الصلاحية النهائية = الأدوار النشطة + استحقاق الخطة + حدود المدرسة.</div>${['الطلاب','الحضور','التحضير','الدرجات','الإحالات','التقارير','التعاميم','الاجتماعات','المساءلات','متابعة ولي الأمر'].map(x=>`<div class="perm"><span>${x}</span><span><span class="tag ok">قراءة</span> <span class="tag info">تعديل</span></span></div>`).join('')}`)}
+function scheduleNow(){return new Date().toLocaleString('ar-SA',{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});}
+function teachersFromSchedule(){return [...new Set((D.schedule||[]).map(function(x){return x.teacher}))];}
+function scheduleConflict(candidate,ignoreId){
+ return (D.schedule||[]).some(function(x){
+  if(ignoreId && x.id===ignoreId)return false;
+  if(x.day!==candidate.day || String(x.period)!==String(candidate.period))return false;
+  return x.teacher===candidate.teacher || x.className===candidate.className;
+ });
+}
+function scheduleWizard(editIndex){
+ D.schedule=D.schedule||[];
+ var r=editIndex!=null?D.schedule[editIndex]:null, days=['الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس'];
+ var teachers=D.teachers||[], classes=D.classes||[], subjects=D.subjects||[];
+ if(!teachers.length||!classes.length||!subjects.length){toast('جهّز المعلمين والفصول والمواد أولًا');return;}
+ openM(r?'تعديل حصة في الجدول':'إضافة حصة إلى الجدول',
+ `<div class="notice okn">الجدول العام هو المصدر الموحد. لا يسمح بتعارض المعلم أو الفصل في اليوم ورقم الحصة نفسيهما.</div>
+ <div class="grid g2 sect">
+  <div class="field"><label>اليوم *</label><select id="sw-day">${days.map(function(x){return '<option '+(r&&r.day===x?'selected':'')+'>'+x+'</option>'}).join('')}</select></div>
+  <div class="field"><label>رقم الحصة *</label><input id="sw-period" type="number" min="1" max="12" value="${r?esc(r.period):'1'}"></div>
+  <div class="field"><label>وقت الحصة *</label><input id="sw-time" type="time" value="${r?esc(r.time):'07:00'}"></div>
+  <div class="field"><label>المعلم *</label><select id="sw-teacher">${teachers.map(function(x){return '<option '+(r&&r.teacher===x?'selected':'')+'>'+esc(x)+'</option>'}).join('')}</select></div>
+  <div class="field"><label>المادة *</label><select id="sw-subject">${subjects.map(function(x){return '<option '+(r&&r.subject===x?'selected':'')+'>'+esc(x)+'</option>'}).join('')}</select></div>
+  <div class="field"><label>الفصل *</label><select id="sw-class">${classes.map(function(x){return '<option '+(r&&r.className===x?'selected':'')+'>'+esc(x)+'</option>'}).join('')}</select></div>
+ </div>
+ <div id="sw-check" class="notice">افحص التعارض قبل الحفظ.</div>`,
+ `<button class="btn" onclick="scheduleCheck(${editIndex==null?'null':editIndex})">فحص التعارض</button>
+  <button class="btn primary" onclick="scheduleSaveNew(${editIndex==null?'null':editIndex})">حفظ الحصة</button>`);
+}
+function scheduleFormValue(){
+ return {day:document.getElementById('sw-day').value,period:document.getElementById('sw-period').value.trim(),time:document.getElementById('sw-time').value,teacher:document.getElementById('sw-teacher').value,subject:document.getElementById('sw-subject').value,className:document.getElementById('sw-class').value};
+}
+function scheduleCheck(editIndex){
+ var o=scheduleFormValue(),box=document.getElementById('sw-check');
+ if(!o.period||!o.time){box.className='notice redn';box.textContent='أكمل رقم الحصة ووقت الحصة.';return false;}
+ var ignore=editIndex==null?null:(D.schedule[editIndex]&&D.schedule[editIndex].id);
+ if(scheduleConflict(o,ignore)){box.className='notice redn';box.textContent='يوجد تعارض مع المعلم أو الفصل في نفس اليوم ورقم الحصة.';return false;}
+ box.className='notice okn';box.textContent='لا يوجد تعارض. يمكن حفظ الحصة.';return true;
+}
+function scheduleSaveNew(editIndex){
+ if(!scheduleCheck(editIndex))return;
+ var o=scheduleFormValue(),now=scheduleNow();
+ if(editIndex==null){
+  D.schedule.push(Object.assign({id:'SL-'+Date.now(),status:'مسودة',approvedAt:''},o));
+  D.audit.unshift([now,'مدير المدرسة','إضافة حصة إلى الجدول','نجاح']);
+ }else{
+  Object.assign(D.schedule[editIndex],o,{status:'مسودة',approvedAt:''});
+  D.audit.unshift([now,'مدير المدرسة','تعديل حصة في الجدول','نجاح']);
+ }
+ save();closeM();pSchedule();toast('تم حفظ الحصة كمسودة');
+}
+function pScheduleLegacy(){
+ D.schedule=D.schedule||[];
+ var teachers=D.teachers||[],conflicts=[];
+ for(var i=0;i<D.schedule.length;i++)for(var j=i+1;j<D.schedule.length;j++){
+  var x=D.schedule[i],y=D.schedule[j];
+  if(x.day===y.day&&String(x.period)===String(y.period)){
+   if(x.teacher===y.teacher)conflicts.push('المعلم: '+x.teacher);
+   if(x.className===y.className)conflicts.push('الفصل: '+x.className);
+  }
+ }
+ var rows=D.schedule.length?D.schedule.map(function(r,i){return `<tr><td>${esc(r.day)}</td><td>${esc(r.period)}</td><td>${esc(r.time)}</td><td><b>${esc(r.teacher)}</b><div class="tiny muted">${esc(r.nationalId||'—')}</div></td><td>${esc(r.className)}</td><td>${esc(r.subject)}</td><td><span class="tag ${r.status==='اعتمد'?'ok':r.status==='مسودة'?'info':'warn'}">${esc(r.status||'مسودة')}</span>${r.approvedAt?'<div class="tiny muted">اعتماد: '+esc(r.approvedAt)+'</div>':''}</td><td><button class="btn" onclick="scheduleWizard(${i})">تعديل</button></td></tr>`}).join(''):`<tr><td colspan="8"><div class="empty">لا توجد حصص.</div></td></tr>`;
+ var tc=teachers.map(function(t){var q=D.schedule.filter(function(x){return x.teacher===t});var id=(q[0]&&q[0].nationalId)||'—';return `<div class="card pad"><div class="sectitle">${esc(t)}</div><div class="tiny muted">رقم الهوية: ${esc(id)}</div>${q.length?q.map(function(x){return `<div class="checkrow"><span>${esc(x.day)} · الحصة ${esc(x.period)}</span><b>${esc(x.className)} · ${esc(x.subject)}</b></div>`}).join(''):'<div class="empty" style="padding:20px">لا حصص مسجلة</div>'}<button class="btn" style="margin-top:10px;width:100%" onclick="teacherSchedule('${esc(t)}')">فتح جدول المعلم</button></div>`}).join('');
+ document.getElementById('view').innerHTML=H('الجدول العام','المصدر الموحد للمعلمين والمواد والفصول؛ ومنه تتولد جداول المعلمين تلقائيًا','<button class="btn gold" onclick="scheduleWizard()">＋ بناء الجدول</button><button class="btn" onclick="schedulePrint()">⇩ طباعة العام</button><button class="btn" onclick="scheduleTeachersPrint()">⇩ طباعة جداول المعلمين</button>')+
+ `<div class="grid g4">${stat(D.schedule.length,'الحصص','🗓️')}${stat(teachers.length,'المعلمين','👥')}${stat(conflicts.length,'التعارضات',conflicts.length?'⚠️':'✓')}${stat(D.schedule.filter(function(x){return x.status==='اعتمد'}).length,'الحصص المعتمدة','✓')}</div>
+ <div class="card pad sect"><div class="sectitle">الجدول العام</div><div class="tablewrap"><table class="table"><tr><th>اليوم</th><th>الحصة</th><th>الوقت</th><th>المعلم</th><th>الفصل</th><th>المادة</th><th>الحالة</th><th></th></tr>${rows}</table></div></div>
+ <div class="grid g2 sect"><div class="card pad"><div class="sectitle">فحص التعارض قبل النشر</div><div class="checkrow"><span>المعلم</span><span class="tag ${conflicts.some(function(c){return c.indexOf('المعلم:')===0})?'bad':'ok'}">${conflicts.some(function(c){return c.indexOf('المعلم:')===0})?'يوجد تعارض':'لا يوجد'}</span></div><div class="checkrow"><span>الفصل</span><span class="tag ${conflicts.some(function(c){return c.indexOf('الفصل:')===0})?'bad':'ok'}">${conflicts.some(function(c){return c.indexOf('الفصل:')===0})?'يوجد تعارض':'لا يوجد'}</span></div><button class="btn primary" style="margin-top:12px" onclick="schedulePublish()">اعتماد ونشر للمعلمين</button></div>
+ <div class="card pad"><div class="sectitle">اعتمادات المعلمين</div>${teachers.map(function(t){var q=D.schedule.filter(function(x){return x.teacher===t}),ok=q.length&&q.every(function(x){return x.status==='اعتمد'});return `<div class="checkrow"><span>${esc(t)}</span><span class="tag ${ok?'ok':'warn'}">${ok?'اعتمد':'بانتظار الرد'}</span></div>`}).join('')}</div></div>
+ <div class="sect"><div class="sectitle">جداول المعلمين المولدة تلقائيًا</div><div class="grid g3">${tc}</div></div>`;
+}
+function schedulePublish(){
+ var conflict=false;
+ for(var i=0;i<D.schedule.length;i++)for(var j=i+1;j<D.schedule.length;j++){var a=D.schedule[i],b=D.schedule[j];if(a.day===b.day&&String(a.period)===String(b.period)&&(a.teacher===b.teacher||a.className===b.className))conflict=true;}
+ if(conflict){toast('لا يمكن النشر قبل معالجة التعارضات');return;}
+ if(!D.schedule.length){toast('لا يوجد جدول للنشر');return;}
+ var now=scheduleNow();D.schedule.forEach(function(x){x.status='بانتظار';x.publishedAt=now});D.audit.unshift([now,'مدير المدرسة','بث الجدول للمعلمين','نجاح']);save();
+ openM('نشر الجدول للمعلمين',`<div class="notice okn">تم اجتياز فحص التعارض. الجدول جاهز لاعتماد المعلمين أو رفضه مع السبب.</div>${teachersFromSchedule().map(function(t){return `<div class="checkrow"><span>${esc(t)}</span><span class="tag warn">بانتظار القبول</span></div>`}).join('')}`,`<button class="btn ok" onclick="teacherAcceptAll()">قبول وتسجيل وقت الاعتماد</button><button class="btn danger" onclick="teacherReject()">رفض مع السبب</button>`);
+}
+function teacherAcceptAll(){var now=scheduleNow();D.schedule.forEach(function(x){x.status='اعتمد';x.approvedAt=now});D.audit.unshift([now,'المعلمون','اعتماد الجدول','نجاح']);save();closeM();pSchedule();toast('تم اعتماد الجدول وتسجيل التاريخ والوقت');}
+function teacherReject(){closeM();openM('رفض جدول المعلم','<div class="field"><label>سبب الرفض — إلزامي</label><textarea id="rej" rows="4"></textarea></div>','<button class="btn danger" onclick="scheduleRejectSave()">إرسال الرفض</button>');}
+function scheduleRejectSave(){var r=document.getElementById('rej').value.trim();if(!r){toast('سبب الرفض إلزامي');return;}var now=scheduleNow();D.schedule.forEach(function(x){x.status='مرفوض';x.rejectReason=r;x.rejectedAt=now});D.audit.unshift([now,'المعلمون','رفض الجدول: '+r,'تم التسجيل']);save();closeM();pSchedule();toast('تم تسجيل الرفض والسبب');}
+function teacherSchedule(name){var items=D.schedule.filter(function(x){return x.teacher===name}),id=items[0]?.nationalId||'غير مسجل';openM('جدول المعلم — '+name,`<div class="notice">اسم المعلم: <b>${esc(name)}</b><br>رقم الهوية: <b>${esc(id)}</b></div><div class="card pad sect"><div class="tablewrap"><table class="table"><tr><th>اليوم</th><th>الحصة</th><th>الوقت</th><th>الفصل</th><th>المادة</th><th>الحالة</th><th>اعتمد في</th></tr>${items.map(function(x){return `<tr><td>${esc(x.day)}</td><td>${esc(x.period)}</td><td>${esc(x.time)}</td><td>${esc(x.className)}</td><td>${esc(x.subject)}</td><td>${esc(x.status)}</td><td>${esc(x.approvedAt||'—')}</td></tr>`}).join('')}</table></div></div>`,`<button class="btn primary" onclick="window.print()">طباعة جدول المعلم</button>`);}
+function schedulePrint(){openM('معاينة الجدول العام',`<div class="paper"><h2>${esc(D.school)}</h2><h3>الجدول الدراسي العام</h3><table class="table"><tr><th>اليوم</th><th>الحصة</th><th>الوقت</th><th>المعلم</th><th>الفصل</th><th>المادة</th></tr>${D.schedule.map(function(x){return `<tr><td>${esc(x.day)}</td><td>${esc(x.period)}</td><td>${esc(x.time)}</td><td>${esc(x.teacher)}</td><td>${esc(x.className)}</td><td>${esc(x.subject)}</td></tr>`}).join('')}</table></div>`,'<button class="btn primary" onclick="window.print()">طباعة</button>');}
+function scheduleTeachersPrint(){openM('جداول المعلمين',`<div class="grid g2">${teachersFromSchedule().map(function(n){var x=D.schedule.find(function(v){return v.teacher===n});return `<div class="card pad"><b>${esc(n)}</b><div class="tiny muted">${esc(x?.nationalId||'—')}</div><button class="btn" style="margin-top:8px" onclick="teacherSchedule('${esc(n)}')">فتح وطباعة</button></div>`}).join('')}</div>`,'<button class="btn primary" onclick="window.print()">طباعة</button>');}
+function pParent(){document.getElementById('view').innerHTML=H('متابعة ولي الأمر','نشر بطاقة الطالب بالمحتوى الذي تختاره مع QR وإقرار إلكتروني','<button class="btn gold" onclick="toast(\'تم إنشاء QR جديد\')">▦ QR</button><button class="btn" onclick="toast(\'تم نسخ الرابط\')">نسخ الرابط</button><button class="btn primary" onclick="toast(\'فتح المعاينة\')">معاينة البطاقة</button>')+`<div class="grid g2"><div class="card pad"><div class="sectitle">سياسة النشر</div>${['الحضور والغياب','المشاركة الإيجابية','السلوك والملاحظات','الواجبات والدرجات','الإحالات'].map((x,i)=>`<div class="checkrow"><span>${x}</span><div class="switch ${i<4?'on':''}" onclick="this.classList.toggle('on')"><i></i></div></div>`).join('')}<div class="notice sect">أول دخول لولي الأمر: شاشة إقرار وتعهد باسم الطالب، ثم بطاقة المتابعة. لا يظهر أي قسم بلا بيانات فعلية.</div></div><div class="card pad"><div class="sectitle">معاينة البطاقة</div><div style="display:flex;gap:20px;align-items:center"><div style="width:120px;height:120px;background:repeating-linear-gradient(45deg,#111 0 3px,#fff 3px 6px);border:8px solid #fff;box-shadow:0 0 0 1px #ccd4df;display:grid;place-items:center;color:#fff;text-shadow:0 1px 4px #000">QR</div><div><h3 style="margin:0">إبراهيم بن عامر أحمد آل رزيع</h3><div class="tiny" style="color:var(--muted)">1157425495 · الأول المتوسط / أ</div><span class="tag ok" style="margin-top:10px">الرابط نشط</span></div></div><div class="card pad sect" style="box-shadow:none;background:#f8fafc"><b>إقرار ولي الأمر</b><p class="tiny" style="color:var(--muted)">أتعهد وأوافق على الاطلاع على بيانات متابعة الطالب وفق المحتوى المنشور من المدرسة.</p><span class="tag info">آخر إقرار: 20:14</span></div></div></div>`}
+function pCorrection(){document.getElementById('view').innerHTML=H('التصحيح الإلكتروني','نظام متكامل من بناء الاختبار حتى اعتماد النتيجة','<button class="btn gold" onclick="examCreate()">＋ إنشاء اختبار</button>')+`<div class="stepper"><div class="step on"><i>1</i> إنشاء</div><div class="line"></div><div class="step on"><i>2</i> مفتاح</div><div class="line"></div><div class="step on"><i>3</i> طباعة</div><div class="line"></div><div class="step"><i>4</i> تصوير وتصحيح</div><div class="line"></div><div class="step"><i>5</i> مراجعة</div><div class="line"></div><div class="step"><i>6</i> اعتماد</div></div><div class="grid g3">${D.exams.map(e=>`<div class="card pad"><div class="ico">📝</div><h3>${e[1]}</h3><div style="font-size:10px;color:var(--muted)">اختبار مرتبط بالمادة والصف</div><div style="margin:12px 0"><span class="tag ok">${e[4]}</span></div><div class="grid g2"><div><small class="muted">الأسئلة</small><b style="display:block;font-size:20px">${e[2]}</b></div><div><small class="muted">الدرجة</small><b style="display:block;font-size:20px">${e[3]}</b></div></div><div class="actions sect"><button class="btn primary" onclick="examOpen()">فتح</button><button class="btn" onclick="printExam()">طباعة</button></div></div>`).join('')}</div><div class="card pad sect"><div class="sectitle">مرحلة التصوير والتصحيح</div><div class="grid g2"><div class="scanbox"><div class="scanframe"></div><div style="position:absolute;bottom:15px;background:#fff;padding:7px 11px;border-radius:9px;font-size:10px">كاميرا الجهاز · جاهز للمسح</div></div><div><div class="notice">1) امسح QR/باركود الورقة لتحديد الاختبار والطالب.<br>2) صوّر كامل ورقة الإجابة.<br>3) يحدد النظام الإجابات ويقارنها بالمفتاح المعتمد.</div><div class="grid g2 sect">${stat('16','إجابة مقروءة','✓')}${stat(1,'تحتاج مراجعة','⚠️')}</div><button class="btn gold" style="width:100%;margin-top:12px" onclick="reviewScan()">فتح المراجعة الذكية</button></div></div></div>`}
+function examCreate(){openM('منشئ الاختبار الاحترافي',`<div class="stepper"><div class="step on"><i>1</i> بيانات الاختبار</div><div class="line"></div><div class="step"><i>2</i> الأسئلة</div><div class="line"></div><div class="step"><i>3</i> المفتاح</div><div class="line"></div><div class="step"><i>4</i> الورقة</div></div><div class="grid g2"><div class="field"><label>المادة المسندة</label><select><option>الرياضيات</option></select></div><div class="field"><label>الصف</label><select><option>الأول المتوسط</option></select></div><div class="field"><label>الفصل الدراسي</label><select><option>الأول</option><option>الثاني</option><option>الثالث</option></select></div><div class="field"><label>عنوان الاختبار</label><input id="examtitle" value="اختبار قصير"></div><div class="field"><label>التاريخ</label><input type="date" value="2026-09-07"></div><div class="field"><label>المدة بالدقائق</label><input type="number" value="30"></div><div class="field"><label>اختيار من متعدد</label><input type="number" value="10"></div><div class="field"><label>صح / خطأ</label><input type="number" value="6"></div></div><div class="notice sect">لكل فقرة درجة مستقلة. لا يسمح بالاعتماد إذا كان السؤال ناقصاً أو بلا درجة أو بلا إجابة صحيحة.</div>`,'<button class="btn primary" onclick="closeM();examQuestions()">التالي: بناء الأسئلة →</button>')}
+function examQuestions(){openM('بناء الأسئلة ومفتاح الإجابة',`<div class="notice">السؤال 1 — اختيار من متعدد: اكتب السؤال والأربعة خيارات وحدد الصحيح والدرجة.</div>${[1,2,3,4].map(n=>`<div class="examq"><div class="examqhead"><b>السؤال ${n}</b><span class="tag ${n%2?'info':'purple'}">${n%2?'اختيار من متعدد':'صح / خطأ'}</span></div><div class="field" style="margin-top:9px"><label>نص السؤال</label><input value="${n%2?'اختر الإجابة الصحيحة للمعادلة التالية':'العبارة صحيحة أم خاطئة؟'}"></div>${n%2?`<div class="grid g2">${['أ','ب','ج','د'].map(x=>`<input placeholder="الخيار ${x}">`).join('')}</div><div class="field" style="margin-top:8px"><label>الصحيح</label><select><option>أ</option><option>ب</option><option>ج</option><option>د</option></select></div>`:`<div class="choice"><input type="radio" name="q${n}"> صح</div><div class="choice"><input type="radio" name="q${n}"> خطأ</div>`}<div class="field"><label>درجة الفقرة</label><input type="number" value="${n%2?2:1}"></div></div>`).join('')}`,'<button class="btn primary" onclick="closeM();toast(\'تم فحص الأسئلة والمفتاح: جاهز للاعتماد\')">✓ اعتماد المفتاح</button>')}
+function examOpen(){examQuestions()}
+function printExam(){openM('معاينة ورقة الاختبار',`<div class="paper"><div style="display:flex;justify-content:space-between"><div><b>${D.school}</b><div style="font-size:10px;color:var(--muted)">الرياضيات · الأول المتوسط · اختبار قصير</div></div><div style="text-align:left;font-size:9px">باركود الورقة<br><b>EX-001-000381</b></div></div><hr><div class="grid g2"><div>اسم الطالب: __________________</div><div>رقم الطالب: ________________</div></div><div class="notice sect">المدة: 30 دقيقة · الدرجة: 20 · عدد الأسئلة: 16</div>${[1,2,3,4].map(n=>`<div style="margin:16px 0"><b>${n}. السؤال التجريبي</b><div>${['أ','ب','ج','د'].map(x=>`<span class="bubble"></span> ${x}`).join(' ')}</div></div>`).join('')}<div style="display:flex;justify-content:space-between;font-size:8px;color:#718096;margin-top:20px"><span>▣ علامات تحديد الورقة</span><span>Paper ID: EX-001-000381</span></div></div>`,'<button class="btn primary" onclick="closeM();toast(\'تمت معاينة الورقة مع QR ومعرف فريد\')">إغلاق</button>')}
+function reviewScan(){openM('مراجعة التصحيح الذكية',`<div class="review"><div class="paper"><div style="display:flex;justify-content:space-between"><b>ورقة الطالب: إبراهيم بن عامر</b><span class="tag info">EX-001-000381</span></div><div class="notice sect">الصورة الأصلية محفوظة مع نتيجة التصحيح في السجل.</div>${[1,2,3,4,5].map((n,i)=>`<div class="checkrow"><span>س${n} · ${i===2?'إجابة غير واضحة':'مطابقة للمفتاح'}</span><span class="tag ${i===2?'warn':'ok'}">${i===2?'تحتاج مراجعة':'صحيح'}</span></div>`).join('')}</div><div class="card pad"><div class="sectitle">قرار المراجع</div><div class="score">18 / 20</div><div class="checkrow"><span>صحيح</span><b>14</b></div><div class="checkrow"><span>خطأ</span><b>1</b></div><div class="checkrow"><span>غير مجاب</span><b>0</b></div><div class="checkrow"><span>مراجعة يدوية</span><b>1</b></div><div class="field sect"><label>القرار للسؤال 3</label><select><option>صحيح</option><option>خطأ</option><option>غير مجاب</option></select></div></div></div>`,'<button class="btn ok" onclick="closeM();toast(\'تم اعتماد تصحيح الطالب وتسجيل العملية\')">✓ اعتماد نتيجة الطالب</button>')}
+function pAccountabilityLegacy(){document.getElementById('view').innerHTML=H('المساءلات','خطاب إلكتروني متسلسل من الإنشاء إلى التبرير والقرار','<button class="btn gold" onclick="accNew()">＋ مساءلة</button>')+`<div class="card pad"><div class="tablewrap"><table class="table"><tr><th>الرقم الإلكتروني</th><th>المعلم</th><th>السبب</th><th>التاريخ والوقت</th><th>الحالة</th><th></th></tr><tr><td><b>M-2026-0017</b></td><td>خالد عبدالله<br><span class="tiny muted">هوية 1022222222</span></td><td><b>تأخر عن الحصة</b></td><td>2026-09-07 · 08:35</td><td><span class="tag warn">بانتظار التبرير</span></td><td><button class="btn" onclick="accView()">فتح</button></td></tr></table></div></div><div class="notice redn sect">عند وجود مساءلة مفتوحة على المعلم، يمنع الوصول للوظائف العادية حتى تقديم التبرير، مع إبقاء شاشة المساءلة متاحة.</div>`}
+function accNewLegacy(){openM('إنشاء مساءلة إلكترونية',`<div class="notice">السلام عليكم ورحمة الله وبركاته<br>تحية طيبة، وبعد:</div><div class="grid g2 sect"><div class="field"><label>المعلم</label><select>${D.teachers.map(n=>`<option>${n}</option>`).join('')}</select></div><div class="field"><label>السبب</label><select><option>غياب</option><option>تأخر</option><option>غياب عن حصة</option><option>أخرى</option></select></div><div class="field"><label>التاريخ الهجري</label><input placeholder="1448/.. /.."></div><div class="field"><label>التاريخ الميلادي</label><input type="date"></div><div class="field"><label>الوقت</label><input type="time"></div></div><div class="field"><label>تفاصيل الواقعة</label><textarea rows="5"></textarea></div>`,'<button class="btn primary" onclick="closeM();toast(\'تم إرسال المساءلة للمعلم\')">إرسال</button>')}
+function accViewLegacy(){openM('المساءلة M-2026-0017',`<div class="notice">السلام عليكم ورحمة الله وبركاته<br>تحية طيبة، وبعد:</div><p><b>بيانات المعلم:</b> خالد عبدالله · الهوية 1022222222</p><p><b>سبب المساءلة:</b> تأخر عن الحصة</p><p><b>التاريخ والوقت:</b> 2026-09-07 · 08:35</p><hr><div class="field"><label>تبرير المعلم</label><textarea rows="5" placeholder="يظهر بعد تقديم المعلم للتبرير"></textarea></div><div class="notice">مرفق التبرير: لا يوجد</div>`,'<button class="btn ok" onclick="closeM();toast(\'تم حفظ القرار\')">اعتماد القرار</button>')}
+function pMeetings(){document.getElementById('view').innerHTML=H('الاجتماعات','دعوة، موضوع، حضور/اعتذار، وقت الرد وسجل الاجتماع','<button class="btn gold" onclick="meetNew()">＋ اجتماع</button>')+`<div class="grid g3">${['اجتماع الهيئة التعليمية','اجتماع لجنة الجودة','اجتماع متابعة الطلاب'].map((t,i)=>`<div class="card pad"><span class="tag info">2026-09-${10+i}</span><h3>${t}</h3><p style="font-size:10px;color:var(--muted)">10:${30+i*10} · خالد عبدالله</p><div class="checkrow"><span>الرد</span><span class="tag ${i===0?'warn':'ok'}">${i===0?'لم يرد':'حضور'}</span></div><button class="btn" style="width:100%;margin-top:12px" onclick="meetingReply()">عرض الاستجابة</button></div>`).join('')}</div>`}
+function meetNew(){openM('إنشاء اجتماع',`<div class="grid g2"><div class="field"><label>العنوان</label><input></div><div class="field"><label>المستهدفون</label><select><option>جميع المعلمين</option><option>معلمون محددون</option></select></div><div class="field"><label>التاريخ</label><input type="date"></div><div class="field"><label>الوقت</label><input type="time"></div></div><div class="field"><label>موضوع النقاش</label><textarea rows="5"></textarea></div>`,'<button class="btn primary" onclick="closeM();toast(\'تم إرسال الدعوات\')">إرسال الدعوة</button>')}
+function meetingReply(){openM('استجابة الاجتماع',`<div class="notice">اجتماع الهيئة التعليمية · 2026-09-10 · 10:30</div><div class="checkrow"><span>المعلم</span><b>خالد عبدالله</b></div><div class="checkrow"><span>الاستجابة</span><span class="tag warn">لم يرد</span></div><div class="field sect"><label>سبب الاعتذار عند وجوده</label><textarea rows="3"></textarea></div>`,'<button class="btn ok" onclick="closeM();toast(\'تم تسجيل الرد\')">حفظ الرد</button>')}
+function pCirculars(){document.getElementById('view').innerHTML=H('التعاميم','ملفات PDF، توزيع، إقرار، توقيع وتتبع','<button class="btn gold" onclick="circNew()">＋ تعميم</button>')+`<div class="grid g3">${['التقويم الدراسي وتوجيهات بداية العام','سياسة الأمن السيبراني','تعليمات الاختبارات'].map((t,i)=>`<div class="card pad"><div class="ico">📄</div><h3>${t}</h3><div style="font-size:9px;color:var(--muted)">PDF · ${i+12} إقراراً</div><div class="progress sect"><i style="width:${60+i*12}%"></i></div><div class="checkrow"><span>الإقرار</span><span class="tag ok">${60+i*12}%</span></div><button class="btn" style="width:100%;margin-top:10px" onclick="toast('فتح التعميم والمعاينة')">فتح</button></div>`).join('')}</div>`}
+function circNew(){openM('إرسال تعميم',`<div class="field"><label>العنوان</label><input></div><div class="grid g2"><div class="field"><label>المستهدفون</label><select><option>الجميع</option><option>المعلمون</option><option>الإدارة</option><option>مستخدمون محددون</option></select></div><div class="field"><label>ملف PDF</label><input type="file" accept=".pdf"></div></div><div class="notice">عند فتح التعميم يظهر للمستخدم زر الإقرار والتوقيع الإلكتروني حسب الصلاحية.</div>`,'<button class="btn primary" onclick="closeM();toast(\'تم إرسال التعميم\')">إرسال</button>')}
+function pReports(){document.getElementById('view').innerHTML=H('التقارير','تقارير تشغيلية وأكاديمية وسلوكية قابلة للتخصيص','<button class="btn gold" onclick="toast(\'فتح منشئ التقرير\')">＋ تقرير مخصص</button><button class="btn" onclick="toast(\'تصدير التقرير\')">⇩ تصدير</button>')+`<div class="grid g4">${stat('91%','حضور الطلاب','✓')}${stat('96%','حضور المعلمين','👥')}${stat('97%','تنفيذ الحصص','📝')}${stat('86%','متوسط الدرجات','📊')}</div><div class="grid g2 sect"><div class="card pad"><div class="sectitle">الحضور</div><div class="progress" style="height:12px"><i style="width:91%"></i></div><p class="tiny muted">اتجاه الأسبوع: مستقر</p></div><div class="card pad"><div class="sectitle">الأداء</div><div class="progress" style="height:12px"><i style="width:86%"></i></div><p class="tiny muted">تحسن 4.2% عن الفترة السابقة</p></div></div>`}
+function reportBuilder(){openM('منشئ تقرير المدرسة',`<div class="grid g2"><div class="field"><label>نوع التقرير</label><select><option>الحضور والغياب</option><option>تنفيذ الحصص</option><option>أداء الطلاب</option><option>المساءلات والإجراءات</option></select></div><div class="field"><label>الفترة</label><select><option>اليوم</option><option>هذا الأسبوع</option><option>هذا الشهر</option></select></div></div><div class="notice">سيتم إنشاء التقرير من بيانات المدرسة الحالية.</div>`,'<button class="btn primary" onclick="closeM();toast(\'تم تجهيز التقرير للمعاينة\')">إنشاء</button>')}
+function reportExport(){openM('تصدير التقرير','<div class="notice okn">تم تجهيز التقرير للطباعة أو PDF.</div>','<button class="btn primary" onclick="window.print()">طباعة / PDF</button>')}
+function calendarEventNew(){openM('إضافة حدث',`<div class="grid g2"><div class="field"><label>اسم الحدث *</label><input id="ce1"></div><div class="field"><label>النوع</label><select id="ce2"><option>إجازة</option><option>دراسي</option><option>اختبارات</option></select></div><div class="field"><label>من</label><input id="ce3" type="date"></div><div class="field"><label>إلى</label><input id="ce4" type="date"></div></div>`,'<button class="btn primary" onclick="saveCalendarEvent()">حفظ الحدث</button>')}
+function saveCalendarEvent(){var n=document.getElementById('ce1').value.trim();if(!n){toast('اسم الحدث مطلوب');return;}D.audit.unshift([scheduleNow(),'مدير المدرسة','إضافة حدث تقويم: '+n,'نجاح']);save();closeM();pCalendar();toast('تم حفظ الحدث')}
+function pCalendar(){document.getElementById('view').innerHTML=H('التقويم الدراسي','تقويم مركزي بإصدارات وتاريخ تغييرات','<button class="btn gold" onclick="toast(\'إضافة حدث\')">＋ حدث</button>')+`<div class="notice">الإصدار الحالي: 1448هـ / 2026-2027م · عند تعديل التقويم تحفظ نسخة جديدة وتنعكس على المدارس.</div><div class="card pad sect"><div class="tablewrap"><table class="table"><tr><th>الحدث</th><th>من</th><th>إلى</th><th>النوع</th><th>الإصدار</th><th>الحالة</th></tr>${[['بداية الدراسة','2026-08-23','2026-08-23','دراسي'],['اليوم الوطني','2026-09-23','2026-09-23','إجازة'],['اختبارات منتصف الفصل','2026-10-18','2026-10-22','اختبارات']].map(r=>`<tr>${r.map(x=>`<td>${x}</td>`).join('')}<td>v1</td><td><span class="tag ok">منعكس</span></td></tr>`).join('')}</table></div></div>`}
+function pSubscriptions(){document.getElementById('view').innerHTML=H('الاشتراكات والخطط','خطط مدرسة/معلم واستحقاقات قابلة للتوسع','<button class="btn gold" onclick="toast(\'فتح منشئ خطة\')">＋ خطة</button>')+`<div class="grid g3">${[['الأساسية','مجانية','8'],['الاحترافية','149 ر.س/شهر','24'],['المؤسسية','حسب الاتفاق','40']].map((p,i)=>`<div class="card pad" style="${i===1?'border-color:var(--gold)':''}"><span class="tag ${i===1?'purple':'info'}">${p[0]}</span><h2>${p[1]}</h2><p style="font-size:10px;color:var(--muted)">${p[2]} ميزة</p>${['المستخدمون','التقارير','التصحيح الإلكتروني','بوابة ولي الأمر','الدعم'].map(x=>`<div class="checkrow"><span>${x}</span><b>✓</b></div>`).join('')}<button class="btn primary" style="width:100%;margin-top:12px" onclick="toast('فتح تفاصيل الخطة')">التفاصيل</button></div>`).join('')}</div><div class="notice okn sect">انتهاء الاشتراك لا يحذف البيانات. يتحكم النظام في الاستحقاق والوصول فقط، مع سجل لكل تغيير.</div>`}
+function pFeatures(){document.getElementById('view').innerHTML=H('مركز الميزات','إضافة مستقبلية قابلة للتفعيل حسب الخطة والدور','<button class="btn gold" onclick="featureNew()">＋ ميزة</button>')+`<div class="grid g3">${[['🖨️','التصحيح الإلكتروني','الاحترافية، المؤسسية',true],['👨‍👩‍👧','بوابة ولي الأمر','جميع الخطط',true],['📈','التحليلات التنبؤية','المؤسسية',true],['🤖','المساعد الذكي','المؤسسية',false],['🌍','دعم المدارس الدولية','المؤسسية',false]].map(f=>`<div class="card pad"><div class="ico">${f[0]}</div><h3>${f[1]}</h3><div style="font-size:9px;color:var(--muted)">${f[2]}</div><div class="checkrow"><span>الحالة</span><div class="switch ${f[3]?'on':''}"><i></i></div></div><button class="btn" style="width:100%;margin-top:10px" onclick="featureNew()">إدارة الميزة</button></div>`).join('')}</div>`}
+function featureNew(){openM('ميزة مستقبلية',`<div class="grid g2"><div class="field"><label>اسم الميزة</label><input></div><div class="field"><label>الأيقونة</label><input value="🧩"></div><div class="field"><label>الوصف</label><input></div><div class="field"><label>أهلية الخطط</label><select><option>المؤسسية</option><option>الاحترافية، المؤسسية</option><option>الجميع</option></select></div><div class="field"><label>الأدوار المسموحة</label><input value="مدير المدرسة، المعلم"></div><div class="field"><label>الحالة</label><select><option>مفعل</option><option>موقوف</option></select></div></div>`,'<button class="btn primary" onclick="closeM();toast(\'تم حفظ الميزة\')">حفظ الميزة</button>')}
+function pThemes(){document.getElementById('view').innerHTML=H('الثيمات والمناسبات','نظام بصري مركزي بجدولة وأولوية','<button class="btn gold" onclick="themeNew()">＋ ثيم</button>')+`<div class="grid g3">${[['اليوم الوطني','2026-09-20 → 2026-09-24','أولوية 10',true],['يوم التأسيس','2027-02-20 → 2027-02-24','أولوية 10',true],['الوضع الرسمي','دائم','أولوية 1',true]].map(t=>`<div class="card pad"><div class="ico">🎨</div><h3>${t[0]}</h3><div style="font-size:10px;color:var(--muted)">${t[1]}</div><div style="margin:12px 0"><span class="tag ok">مفعل</span> <span class="tag info">${t[2]}</span></div><button class="btn" onclick="themeNew()">تعديل ومعاينة</button></div>`).join('')}</div>`}
+function themeNew(){openM('محرر الثيم',`<div class="grid g2"><div class="field"><label>اسم المناسبة</label><input value="يوم العلم"></div><div class="field"><label>الأولوية</label><input type="number" value="10"></div><div class="field"><label>البداية</label><input type="date"></div><div class="field"><label>النهاية</label><input type="date"></div></div><div class="notice">الثيم يغير الهوية البصرية فقط، ويمكن تفعيل/تعطيل وجدولة العرض. عند التداخل تطبق أعلى أولوية.</div>`,'<button class="btn primary" onclick="closeM();toast(\'تم حفظ ومعاينة الثيم\')">حفظ وتفعيل</button>')}
+function pSupport(){document.getElementById('view').innerHTML=H('الدعم الفني','تذاكر مرقمة ومسارات معالجة واضحة','<button class="btn gold" onclick="ticketNew()">＋ تذكرة</button>')+`<div class="grid g4">${stat(12,'مفتوحة','🎧')}${stat(7,'قيد المعالجة','⏳')}${stat(28,'محلولة','✓')}${stat(4,'طلبات ميزات','🧩')}</div><div class="card pad sect"><div class="tablewrap"><table class="table"><tr><th>الرقم</th><th>النوع</th><th>الموضوع</th><th>التاريخ</th><th>الحالة</th><th></th></tr>${D.tickets.map(t=>`<tr><td><b>${t[0]}</b></td><td>${t[1]}</td><td>${t[2]}</td><td>2026-09-07</td><td><span class="tag info">${t[3]}</span></td><td><button class="btn" onclick="ticketNew()">فتح</button></td></tr>`).join('')}</table></div></div>`}
+function ticketNew(){openM('طلب دعم فني',`<div class="field"><label>نوع الطلب</label><select><option>مشكلة تقنية</option><option>طلب إضافة ميزة</option></select></div><div class="field"><label>سبب المشكلة / العنوان</label><input></div><div class="field"><label>الوصف</label><textarea rows="5"></textarea></div><div class="field"><label>إرفاق صورة</label><input type="file" accept="image/*"></div>`,'<button class="btn primary" onclick="closeM();toast(\'تم إنشاء التذكرة برقم تسلسلي\')">إرسال التذكرة</button>')}
+function pAudit(){document.getElementById('view').innerHTML=H('سجل التدقيق','توثيق العمليات الحساسة والاعتمادات والتغييرات','<button class="btn" onclick="toast(\'تصدير سجل التدقيق\')">⇩ تصدير</button>')+`<div class="notice okn">السجل الإنتاجي غير قابل للحذف أو التعديل من واجهة المستخدم، ويحتوي المستخدم والزمن والعملية والهدف والنتيجة.</div><div class="card pad sect"><div class="tablewrap"><table class="table"><tr><th>الوقت</th><th>المستخدم</th><th>العملية</th><th>النتيجة</th></tr>${D.audit.map(a=>`<tr><td>${a[0]}</td><td>${a[1]}</td><td>${a[2]}</td><td><span class="tag ok">${a[3]}</span></td></tr>`).join('')}</table></div></div>`}
+function pBackups(){document.getElementById('view').innerHTML=H('النسخ الاحتياطي','سياسة نسخ واستعادة متعددة الطبقات','<button class="btn gold" onclick="toast(\'طلب نسخة احتياطية\')">＋ نسخة الآن</button>')+`<div class="grid g3"><div class="card pad"><div class="ico">☁️</div><h3>نسخ تلقائي</h3><p class="tiny muted">نسخ دوري لقاعدة البيانات في الإنتاج.</p><span class="tag warn">مرحلة الربط</span></div><div class="card pad"><div class="ico">🗄️</div><h3>نسخة خارجية</h3><p class="tiny muted">حفظ منفصل للحد من مخاطر فقدان البيانات.</p><span class="tag info">مخطط</span></div><div class="card pad"><div class="ico">↩️</div><h3>الاستعادة</h3><p class="tiny muted">استعادة محمية بصلاحية خاصة وسجل تدقيق.</p><span class="tag info">محمي</span></div></div>`}
+function pSchool(){document.getElementById('view').innerHTML=H('إعدادات المدرسة','بيانات المدرسة، السنة، أوقات الحصص، الفواصل والصلاة','<button class="btn primary" onclick="toast(\'تم حفظ الإعدادات\')">✓ حفظ</button>')+`<div class="grid g2"><div class="card pad"><div class="sectitle">الفصل الصيفي</div><div class="grid g2"><div class="field"><label>عدد الحصص</label><input value="7"></div><div class="field"><label>بداية الطابور</label><input type="time" value="06:45"></div><div class="field"><label>بداية الأولى</label><input type="time" value="07:00"></div><div class="field"><label>بداية السابعة</label><input type="time" value="11:30"></div></div><div class="checkrow"><span>الفاصل</span><span class="tag ok">بعد الثالثة · 20 دقيقة</span></div><div class="checkrow"><span>الصلاة</span><span class="tag info">مفعلة · 12:10</span></div></div><div class="card pad"><div class="sectitle">الفصل الشتوي</div><div class="grid g2"><div class="field"><label>عدد الحصص</label><input value="7"></div><div class="field"><label>بداية الطابور</label><input type="time" value="06:45"></div><div class="field"><label>بداية الأولى</label><input type="time" value="07:00"></div><div class="field"><label>بداية السابعة</label><input type="time" value="11:30"></div></div><div class="checkrow"><span>الفاصل</span><span class="tag ok">مفعل</span></div><div class="checkrow"><span>الصلاة</span><span class="tag info">مفعلة</span></div></div></div>`}
+function pSettings(){document.getElementById('view').innerHTML=H('الإعدادات','الحساب والتفضيلات وأمان الجلسة','<button class="btn primary" onclick="toast(\'تم حفظ الإعدادات\')">✓ حفظ</button>')+`<div class="grid g2"><div class="card pad"><div class="sectitle">الملف الشخصي</div><div class="field"><label>الاسم الرباعي</label><input value="سعود القرشي"></div><div class="field"><label>رقم الهوية</label><input value="1000000000"></div><div class="field"><label>تاريخ الميلاد</label><input type="date"></div><div class="field"><label>الجوال</label><input></div></div><div class="card pad"><div class="sectitle">التوقيع الإلكتروني</div><div class="notice">يمكن رسم التوقيع أو رفع صورة شفافة، ويستخدم في المستندات التي يملك المستخدم صلاحية توقيعها.</div><div style="height:120px;border:1px dashed #9eb0c0;border-radius:12px;margin:13px 0;display:grid;place-items:center;color:var(--muted)">منطقة التوقيع</div><button class="btn" onclick="toast('فتح محرر التوقيع')">✎ تحرير التوقيع</button></div></div>`}
+bindSafeClicks();buildNav();render();
+</script>
+
+<style id="system-admin-pro-module">
+.saProOverlay{position:fixed;inset:0;background:rgba(10,20,35,.48);display:none;align-items:center;justify-content:center;padding:18px;z-index:9999}
+.saProOverlay.show{display:flex}.saProModal{width:min(760px,100%);max-height:92vh;background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 30px 90px rgba(0,0,0,.28);display:flex;flex-direction:column}
+.saProHead{padding:18px 22px;border-bottom:1px solid #e7ebf2;display:flex;align-items:center;justify-content:space-between}
+.saProHead h3{margin:0}.saProBody{padding:20px;overflow:auto}.saProFoot{padding:14px 20px;border-top:1px solid #e7ebf2;display:flex;gap:8px}
+.saProGrid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}.saPro6{grid-column:span 6}.saPro12{grid-column:span 12}
+.saProCard{background:#fff;border:1px solid #e5eaf1;border-radius:18px;padding:16px;box-shadow:0 8px 24px rgba(25,40,70,.06)}
+.saProField{margin-bottom:12px}.saProField label{display:block;font-size:12px;font-weight:800;margin-bottom:6px}.saProField input,.saProField select,.saProField textarea{width:100%;box-sizing:border-box;border:1px solid #d8e0ea;border-radius:10px;padding:10px;font:inherit}
+.saProTable{width:100%;border-collapse:collapse}.saProTable th,.saProTable td{padding:10px;border-bottom:1px solid #edf0f4;text-align:right}.saProTable th{font-size:12px;color:#697386}
+.saProBadge{display:inline-block;padding:5px 9px;border-radius:99px;background:#eaf8f1;color:#147b4c;font-size:12px;font-weight:800}
+.saProBtn{border:0;border-radius:10px;padding:9px 13px;background:#1769e0;color:#fff;font-weight:800;cursor:pointer}.saProBtn.alt{background:#edf3fb;color:#2e405d}.saProBtn.danger{background:#fff0ef;color:#b42318}
+.saProClose{border:0;background:#f1f4f8;border-radius:9px;padding:7px 10px;cursor:pointer}
+@media(max-width:700px){.saPro6{grid-column:span 12}}
+</style>
+<script id="system-admin-pro-module-js">
+(function(){
+"use strict";
+var SAKEY="system_admin_professional_state_v1";
+var SA=null;
+
+function saLoad(){
+ try{SA=JSON.parse(localStorage.getItem(SAKEY)||"null")}catch(e){SA=null}
+ if(!SA)SA={
+  schools:[{id:"S1",name:"مدرسة النخبة",city:"الطائف",status:"نشطة"}],
+  users:[{id:"U1",name:"مدير المنظومة",email:"admin@platform.sa",role:"مدير المنظومة",status:"نشط"}],
+  plans:[{id:"P1",name:"الأساسية",price:99,period:"شهري",active:true},{id:"P2",name:"المؤسسية",price:299,period:"شهري",active:true}],
+  features:[{id:"F1",name:"التصحيح الإلكتروني",active:true},{id:"F2",name:"بوابة ولي الأمر",active:true},{id:"F3",name:"التقارير المتقدمة",active:true}],
+  tickets:[],calendar:[],themes:[],audit:[]
+ };
+ localStorage.setItem(SAKEY,JSON.stringify(SA));return SA;
+}
+function saSave(){localStorage.setItem(SAKEY,JSON.stringify(SA))}
+function saId(p){return p+Date.now()+Math.floor(Math.random()*10000)}
+function saEsc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function saAudit(a,s){SA.audit.unshift({action:a,subject:s,time:new Date().toLocaleString("ar-SA")});saSave()}
+function saNotify(m){if(typeof toast==="function")toast(m);else{var t=document.getElementById("saProToast");if(t){t.textContent=m;t.style.display="block";setTimeout(function(){t.style.display="none"},1800)}else alert(m)}}
+function saOpen(title,body,ok){
+ var o=document.getElementById("saProOverlay");
+ document.getElementById("saProTitle").textContent=title;
+ document.getElementById("saProBody").innerHTML=body;
+ document.getElementById("saProFoot").innerHTML='<button class="saProBtn alt" onclick="saClose()">إلغاء</button><button class="saProBtn" onclick="'+ok+'">حفظ وتنفيذ</button>';
+ o.classList.add("show");
+}
+function saClose(){document.getElementById("saProOverlay").classList.remove("show")}
+function saField(label,id,type,value){return '<div class="saProField"><label>'+label+'</label><input id="'+id+'" type="'+(type||"text")+'" value="'+saEsc(value||"")+'"></div>'}
+function saSelect(label,id,arr,value){var h='<div class="saProField"><label>'+label+'</label><select id="'+id+'">';arr.forEach(function(x){h+='<option '+(x===value?"selected":"")+'>'+saEsc(x)+'</option>'});return h+"</select></div>"}
+function saPage(title,sub,body,actions){
+ var v=document.getElementById("view");if(!v)return;
+ v.innerHTML='<div class="page-head"><div><h2>'+title+'</h2><p>'+sub+'</p></div><div class="ph-actions">'+(actions||"")+'</div></div>'+body;
+ window.scrollTo({top:0,behavior:"smooth"});
+}
+function saTable(head,rows){
+ return '<div class="saProCard" style="overflow:auto"><table class="saProTable"><tr>'+head.map(function(x){return"<th>"+x+"</th>"}).join("")+"</tr>"+rows+"</table></div>"
+}
+
+window.saClose=saClose;
+
+window.saAdmin=function(route){
+ saLoad();
+ if(route==="schools")return saSchools();
+ if(route==="users")return saUsers();
+ if(route==="subscriptions")return saPlans();
+ if(route==="features")return saFeatures();
+ if(route==="themes")return saThemes();
+ if(route==="calendar")return saCalendar();
+ if(route==="support")return saSupport();
+ if(route==="audit")return saAuditPage();
+ if(route==="backups")return saBackups();
+ if(route==="home")return saHome();
+ return saHome();
+};
+
+function saHome(){
+ var cards=[
+ ["schools","🏫","المدارس","إدارة المدارس"],
+ ["users","👥","المستخدمون والصلاحيات","الحسابات والأدوار"],
+ ["subscriptions","💳","الاشتراكات","الخطط والاستحقاقات"],
+ ["features","🧩","الميزات","مركز خصائص المنصة"],
+ ["calendar","📅","التقويم الدراسي","الإجازات والأحداث"],
+ ["themes","🎨","الثيمات","المناسبات والمظهر"],
+ ["support","🎫","الدعم الفني","التذاكر والإرفاقات"],
+ ["audit","🛡️","سجل التدقيق","العمليات الحساسة"],
+ ["backups","💾","النسخ الاحتياطي","تصدير واستعادة نموذجية"]
+ ];
+ var html='<div class="grid">';
+ cards.forEach(function(c){html+='<div class="col-4"><div class="saProCard" style="cursor:pointer" onclick="saAdmin(\''+c[0]+'\')"><div style="font-size:25px">'+c[1]+'</div><h3>'+c[2]+'</h3><p style="color:#697386">'+c[3]+'</p></div></div>'});
+ html+='</div>';
+ saPage("مدير المنظومة","مركز تحكم الوظائف العالمية",html);
+}
+function saSchools(){
+ var rows=SA.schools.map(function(s){return'<tr><td>'+saEsc(s.name)+'</td><td>'+saEsc(s.city)+'</td><td><span class="saProBadge">'+s.status+'</span></td><td><button class="saProBtn alt" onclick="saEditSchool(\''+s.id+'\')">فتح</button> <button class="saProBtn danger" onclick="saDeleteSchool(\''+s.id+'\')">حذف</button></td></tr>'}).join("");
+ saPage("المدارس","إنشاء وإدارة المدارس",saTable(["المدرسة","المدينة","الحالة","الإجراء"],rows),'<button class="saProBtn" onclick="saAddSchool()">＋ مدرسة</button>');
+}
+window.saAddSchool=function(){saOpen("إضافة مدرسة",saField("اسم المدرسة *","sf1")+saField("المدينة","sf2"),"saSaveSchool()")}
+window.saSaveSchool=function(){var n=document.getElementById("sf1").value.trim();if(!n)return saNotify("اسم المدرسة مطلوب");SA.schools.push({id:saId("S"),name:n,city:document.getElementById("sf2").value,status:"نشطة"});saSave();saAudit("إضافة مدرسة",n);saClose();saSchools();saNotify("تمت إضافة المدرسة")}
+window.saEditSchool=function(id){var s=SA.schools.find(function(x){return x.id===id});saOpen("تعديل المدرسة",saField("الاسم","sf1","text",s.name)+saField("المدينة","sf2","text",s.city),"saUpdateSchool('"+id+"')")}
+window.saUpdateSchool=function(id){var s=SA.schools.find(function(x){return x.id===id});s.name=document.getElementById("sf1").value.trim()||s.name;s.city=document.getElementById("sf2").value;saSave();saAudit("تعديل مدرسة",s.name);saClose();saSchools();saNotify("تم التحديث")}
+window.saDeleteSchool=function(id){var s=SA.schools.find(function(x){return x.id===id});if(!confirm("حذف المدرسة؟"))return;SA.schools=SA.schools.filter(function(x){return x.id!==id});saSave();saAudit("حذف مدرسة",s.name);saSchools();saNotify("تم حذف المدرسة")}
+
+function saUsers(){
+ var rows=SA.users.map(function(u){return'<tr><td>'+saEsc(u.name)+'</td><td>'+saEsc(u.email)+'</td><td>'+saEsc(u.role)+'</td><td>'+saEsc(u.status)+'</td><td><button class="saProBtn alt" onclick="saEditUser(\''+u.id+'\')">إدارة</button></td></tr>'}).join("");
+ saPage("المستخدمون والصلاحيات","حسابات مدير المنظومة والأدوار الأساسية",saTable(["المستخدم","البريد","الدور","الحالة",""],rows),'<button class="saProBtn" onclick="saAddUser()">＋ مستخدم</button>');
+}
+window.saAddUser=function(){saOpen("إنشاء مستخدم",saField("الاسم *","uf1")+saField("البريد الإلكتروني *","uf2","email")+saSelect("الدور","uf3",["مدير مدرسة","معلم","موظف"]),"saSaveUser()")}
+window.saSaveUser=function(){var n=document.getElementById("uf1").value.trim(),e=document.getElementById("uf2").value.trim();if(!n||!e)return saNotify("الاسم والبريد مطلوبان");SA.users.push({id:saId("U"),name:n,email:e,role:document.getElementById("uf3").value,status:"نشط"});saSave();saAudit("إنشاء مستخدم",e);saClose();saUsers();saNotify("تم إنشاء المستخدم")}
+window.saEditUser=function(id){var u=SA.users.find(function(x){return x.id===id});saOpen("إدارة المستخدم",saField("الاسم","uf1","text",u.name)+saSelect("الدور","uf2",["مدير مدرسة","معلم","موظف"],u.role)+saSelect("الحالة","uf3",["نشط","موقوف"],u.status),"saUpdateUser('"+id+"')")}
+window.saUpdateUser=function(id){var u=SA.users.find(function(x){return x.id===id});u.name=document.getElementById("uf1").value.trim()||u.name;u.role=document.getElementById("uf2").value;u.status=document.getElementById("uf3").value;saSave();saAudit("تعديل مستخدم",u.email);saClose();saUsers();saNotify("تم تحديث المستخدم")}
+
+function saPlans(){
+ var cards=SA.plans.map(function(p){return'<div class="col-4"><div class="saProCard"><div style="font-size:24px">💳</div><h3>'+saEsc(p.name)+'</h3><p><b>'+p.price+'</b> ريال / '+saEsc(p.period)+'</p><span class="saProBadge">'+(p.active?"مفعلة":"موقوفة")+'</span><div style="margin-top:12px"><button class="saProBtn alt" onclick="saTogglePlan(\''+p.id+'\')">'+(p.active?"إيقاف":"تفعيل")+'</button></div></div></div>'}).join("");
+ saPage("الاشتراكات","الخطط التي تتحكم في استحقاقات المنصة",'<div class="grid">'+cards+'</div>','<button class="saProBtn" onclick="saAddPlan()">＋ خطة اشتراك</button>');
+}
+window.saAddPlan=function(){saOpen("إنشاء خطة اشتراك",saField("اسم الخطة *","pf1")+saField("السعر بالريال","pf2","number")+saSelect("الدورة","pf3",["شهري","سنوي"]),"saSavePlan()")}
+window.saSavePlan=function(){var n=document.getElementById("pf1").value.trim();if(!n)return saNotify("اسم الخطة مطلوب");SA.plans.push({id:saId("P"),name:n,price:Number(document.getElementById("pf2").value)||0,period:document.getElementById("pf3").value,active:true});saSave();saAudit("إنشاء خطة اشتراك",n);saClose();saPlans();saNotify("تم إنشاء الخطة")}
+window.saTogglePlan=function(id){var p=SA.plans.find(function(x){return x.id===id});p.active=!p.active;saSave();saAudit(p.active?"تفعيل خطة":"إيقاف خطة",p.name);saPlans();saNotify("تم تحديث الخطة")}
+
+function saFeatures(){
+ var cards=SA.features.map(function(f){return'<div class="col-4"><div class="saProCard"><div style="font-size:24px">🧩</div><h3>'+saEsc(f.name)+'</h3><p><span class="saProBadge">'+(f.active?"متاحة":"موقوفة")+'</span></p><button class="saProBtn alt" onclick="saToggleFeature(\''+f.id+'\')">'+(f.active?"إيقاف":"تفعيل")+'</button></div></div>'}).join("");
+ saPage("الميزات","مركز خصائص المنصة وإتاحتها",'<div class="grid">'+cards+'</div>','<button class="saProBtn" onclick="saAddFeature()">＋ ميزة</button>');
+}
+window.saAddFeature=function(){saOpen("إضافة ميزة",saField("اسم الميزة *","ff1")+saField("وصف","ff2"),"saSaveFeature()")}
+window.saSaveFeature=function(){var n=document.getElementById("ff1").value.trim();if(!n)return saNotify("اسم الميزة مطلوب");SA.features.push({id:saId("F"),name:n,description:document.getElementById("ff2").value,active:true});saSave();saAudit("إضافة ميزة",n);saClose();saFeatures();saNotify("تمت إضافة الميزة")}
+window.saToggleFeature=function(id){var f=SA.features.find(function(x){return x.id===id});f.active=!f.active;saSave();saAudit(f.active?"تفعيل ميزة":"إيقاف ميزة",f.name);saFeatures();saNotify("تم تحديث الميزة")}
+
+function saCalendar(){
+ var rows=SA.calendar.map(function(c){return'<tr><td>'+saEsc(c.title)+'</td><td>'+saEsc(c.type)+'</td><td>'+saEsc(c.from)+'</td><td>'+saEsc(c.to)+'</td><td><button class="saProBtn danger" onclick="saDeleteCalendar(\''+c.id+'\')">حذف</button></td></tr>'}).join("");
+ saPage("التقويم الدراسي","الأحداث والإجازات",saTable(["الحدث","النوع","من","إلى",""],rows),'<button class="saProBtn" onclick="saAddCalendar()">＋ حدث</button>');
+}
+window.saAddCalendar=function(){saOpen("إضافة حدث",saField("اسم الحدث *","cf1")+saSelect("النوع","cf2",["إجازة","دراسي","اختبارات","مناسبة"])+saField("من","cf3","date")+saField("إلى","cf4","date"),"saSaveCalendar()")}
+window.saSaveCalendar=function(){var n=document.getElementById("cf1").value.trim();if(!n)return saNotify("اسم الحدث مطلوب");SA.calendar.push({id:saId("C"),title:n,type:document.getElementById("cf2").value,from:document.getElementById("cf3").value,to:document.getElementById("cf4").value});saSave();saAudit("إضافة حدث تقويم",n);saClose();saCalendar();saNotify("تم حفظ الحدث")}
+window.saDeleteCalendar=function(id){var c=SA.calendar.find(function(x){return x.id===id});if(!confirm("حذف الحدث؟"))return;SA.calendar=SA.calendar.filter(function(x){return x.id!==id});saSave();saAudit("حذف حدث تقويم",c.title);saCalendar();saNotify("تم حذف الحدث")}
+
+function saThemes(){
+ var rows=SA.themes.map(function(t){return'<tr><td>'+saEsc(t.name)+'</td><td>'+saEsc(t.from||"—")+'</td><td>'+saEsc(t.to||"—")+'</td><td>'+ (t.active?"مفعل":"موقوف")+'</td></tr>'}).join("");
+ saPage("الثيمات والمناسبات","إنشاء وجدولة الهوية البصرية للمناسبات",saTable(["الثيم","من","إلى","الحالة"],rows),'<button class="saProBtn" onclick="saAddTheme()">＋ ثيم</button>');
+}
+window.saAddTheme=function(){saOpen("إنشاء ثيم مناسبة",saField("اسم المناسبة *","tf1")+saField("البداية","tf2","datetime-local")+saField("النهاية","tf3","datetime-local"),"saSaveTheme()")}
+window.saSaveTheme=function(){var n=document.getElementById("tf1").value.trim();if(!n)return saNotify("اسم المناسبة مطلوب");SA.themes.push({id:saId("T"),name:n,from:document.getElementById("tf2").value,to:document.getElementById("tf3").value,active:true});saSave();saAudit("إنشاء ثيم",n);saClose();saThemes();saNotify("تم حفظ الثيم")}
+
+function saSupport(){
+ var rows=SA.tickets.map(function(t){return'<tr><td>'+saEsc(t.serial)+'</td><td>'+saEsc(t.subject)+'</td><td>'+saEsc(t.type)+'</td><td>'+saEsc(t.status)+'</td><td>'+saEsc(t.file||"لا يوجد")+'</td><td><button class="saProBtn alt" onclick="saAdvanceTicket(\''+t.id+'\')">تحديث</button></td></tr>'}).join("");
+ if(!rows)rows='<tr><td colspan="6"><div class="empty">لا توجد تذاكر دعم</div></td></tr>';
+ saPage("الدعم الفني","التذاكر والمشكلات وطلبات الميزات",saTable(["الرقم","الموضوع","النوع","الحالة","المرفق",""],rows),'<button class="saProBtn" onclick="saAddTicket()">＋ تذكرة</button>');
+}
+window.saAddTicket=function(){saOpen("تذكرة دعم",saSelect("النوع","sfType",["مشكلة تقنية","طلب إضافة ميزة"])+saField("الموضوع *","sfSub")+ '<div class="saProField"><label>الوصف</label><textarea id="sfDesc" rows="4"></textarea></div><div class="saProField"><label>إرفاق صورة أو ملف</label><input id="sfFile" type="file"></div>',"saSaveTicket()")}
+window.saSaveTicket=function(){var s=document.getElementById("sfSub").value.trim(),f=document.getElementById("sfFile").files[0];if(!s)return saNotify("الموضوع مطلوب");var serial="SUP-"+Date.now().toString().slice(-8);SA.tickets.push({id:saId("X"),serial:serial,type:document.getElementById("sfType").value,subject:s,description:document.getElementById("sfDesc").value,status:"جديدة",file:f?f.name:""});saSave();saAudit("إنشاء تذكرة دعم",serial);saClose();saSupport();saNotify("تم إرسال التذكرة")}
+window.saAdvanceTicket=function(id){var t=SA.tickets.find(function(x){return x.id===id}),st=["جديدة","قيد المراجعة","قيد التنفيذ","تم الحل","مغلقة"],i=st.indexOf(t.status);t.status=st[(i+1)%st.length];saSave();saAudit("تحديث تذكرة",t.serial+" — "+t.status);saSupport();saNotify("تم تحديث الحالة")}
+
+function saAuditPage(){
+ var rows=SA.audit.map(function(a){return'<tr><td>'+saEsc(a.action)+'</td><td>'+saEsc(a.subject)+'</td><td>'+saEsc(a.time)+'</td></tr>'}).join("");
+ if(!rows)rows='<tr><td colspan="3"><div class="empty">لا توجد عمليات</div></td></tr>';
+ saPage("سجل التدقيق","العمليات المنفذة داخل حساب مدير المنظومة",saTable(["العملية","العنصر","التاريخ"],rows));
+}
+function saBackups(){
+ saPage("النسخ الاحتياطي","أدوات نموذجية قبل ربط التخزين السحابي",'<div class="saProGrid"><div class="saPro6"><div class="saProCard"><h3>تصدير البيانات</h3><p>حفظ نسخة JSON من بيانات النموذج.</p><button class="saProBtn" onclick="saExport()">تصدير</button></div></div><div class="saPro6"><div class="saProCard"><h3>استيراد البيانات</h3><p>اختر ملف JSON لاستعادة نموذج محلي.</p><input id="saImportFile" type="file" accept=".json" onchange="saImport(this)"></div></div></div>');
+}
+window.saExport=function(){var b=new Blob([JSON.stringify(SA,null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="system-admin-backup.json";a.click();URL.revokeObjectURL(a.href);saAudit("تصدير نسخة احتياطية","JSON");saNotify("تم تصدير النسخة")}
+window.saImport=function(inp){var f=inp.files[0];if(!f)return;var r=new FileReader();r.onload=function(){try{var x=JSON.parse(r.result);if(!x.schools||!x.users)throw Error();SA=x;saSave();saAudit("استيراد نسخة احتياطية","JSON");saBackups();saNotify("تم الاستيراد")}catch(e){saNotify("ملف النسخة غير صالح")}};r.readAsText(f)}
+
+window.saStart=function(){
+ saLoad();
+ var box=document.createElement("div");box.id="saProOverlay";box.className="saProOverlay";
+ box.innerHTML='<div class="saProModal"><div class="saProHead"><h3 id="saProTitle"></h3><button class="saProClose" onclick="saClose()">✕</button></div><div class="saProBody" id="saProBody"></div><div class="saProFoot" id="saProFoot"></div></div>';
+ document.body.appendChild(box);
+ saHome();
+};
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",saStart);else saStart();
+})();
+</script>
+
+</body></html>
